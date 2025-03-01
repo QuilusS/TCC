@@ -552,17 +552,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"notf2xhcfb"},{"Name":"integrity","Value":"sha256-\u002BUW802wgVfnjaSbdwyHLlU7AVplb0WToOlvN1CnzIac="},{"Name":"label","Value":"_content/Primus/lib/bootstrap/dist/js/bootstrap.js"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"145401"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022\u002BUW802wgVfnjaSbdwyHLlU7AVplb0WToOlvN1CnzIac=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 17:29:22 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Primus/Primus.aeow22yh8l.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Primus.aeow22yh8l.bundle.scp.css'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/Primus/Primus.2wcvm1u5e2.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Primus.2wcvm1u5e2.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"aeow22yh8l"},{"Name":"integrity","Value":"sha256-gi0OcXSIkUwtZwkgvEV4nL3TzyNhxg/WU3NJk9o6dBk="},{"Name":"label","Value":"_content/Primus/Primus.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5959"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022gi0OcXSIkUwtZwkgvEV4nL3TzyNhxg/WU3NJk9o6dBk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 17:36:57 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2wcvm1u5e2"},{"Name":"integrity","Value":"sha256-/hKa1KC01zW1bg4RircFq3CC9d40YttKn7IfSH1AsM8="},{"Name":"label","Value":"_content/Primus/Primus.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6020"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022/hKa1KC01zW1bg4RircFq3CC9d40YttKn7IfSH1AsM8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 21:50:45 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Primus/Primus.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Primus.aeow22yh8l.bundle.scp.css'))</AssetFile>
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Primus.2wcvm1u5e2.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gi0OcXSIkUwtZwkgvEV4nL3TzyNhxg/WU3NJk9o6dBk="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5959"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022gi0OcXSIkUwtZwkgvEV4nL3TzyNhxg/WU3NJk9o6dBk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 17:36:57 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/hKa1KC01zW1bg4RircFq3CC9d40YttKn7IfSH1AsM8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6020"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022/hKa1KC01zW1bg4RircFq3CC9d40YttKn7IfSH1AsM8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 21:50:45 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

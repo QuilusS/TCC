@@ -1,9 +1,25 @@
 html, body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #E6E6E6;
+    padding: 0;
+    height: 4000px;
+    overflow-x: hidden;
+
+    background-image: url("../IMGS/Peças/DiscoDes.png"), url("../IMGS/Peças/PivoDes.png"), url("../IMGS/Peças/Vela.png"), url("../IMGS/Peças/RodaDes.png"), url('../IMGS/Peças/RadiadorDes.png'), url('../IMGS/Peças/FiltroDes.png');
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-size: 200px, 200px, 200px, 200px, 200px, 200px;     
+    background-position: 60px 2400px, 1600px 2900px, 50px 3500px, 1600px 1700px, 1550px 3750px, 10px 1500px;
+    animation: ImagensAumentando 4s infinite;
+}
+@keyframes ImagensAumentando {
+
+    0% , 100% {background-size: 200px, 200px, 200px, 200px, 200px, 200px;}
+    50% {background-size: 210px, 210px, 210px, 210px, 210px, 210px;}
+
 }
 
 a, .btn-link {
     color: #006bb7;
+    
 }
 
 .btn-primary {
@@ -58,3 +74,408 @@ h1:focus {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
     text-align: start;
 }
+.top-nav {
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 10px 5;
+}
+
+.top-nav .nav-item {
+    list-style: none;
+}
+
+.top-nav .nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.top-nav .nav-link:hover {
+    background-color: #495057;
+}
+h1 {
+    font-family: 'Negrita';
+    font-size: 50px;
+    text-align:center;
+    color: #E6E6E6;
+    padding-left: 220px;
+
+}
+
+h2 {
+
+    font-family:'Calibri';
+    font-size: 20px;
+    color: #E6E6E6;
+    text-align: justify;
+    padding-left: 350px;
+    max-width: 800px;
+}
+
+.hidden {
+
+    opacity: 0;
+    transform: translateX(500px);
+    transition: 1.5s;
+}
+
+.hidden.show {
+
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+h3 {
+
+    font-family: 'Negrita';
+    font-size: 80px;
+    text-align: center;
+}
+
+h4 {
+    font-family:'Calibri';
+    font-size: 25px;
+    text-align: center;
+}
+
+.hidden2{
+
+    opacity: 0;
+    transform: translateX(-500px);
+    transition: 1s;
+
+}
+
+.hidden2.show {
+
+    opacity: 1;
+    transform: translateX(-0px);
+}
+
+h5 {
+
+    font-family: 'Negrita';
+    font-size: 80px;
+    text-align: center;
+}
+
+h6 {
+
+    font-family:'Calibri';
+    font-size: 25px;
+    text-align: center;
+}
+
+.hidden3 {
+
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: 1s;
+
+}
+
+.hidden3.show {
+
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.Empresa{
+
+    width: 50%; 
+    height: 500px;
+    background-color: #2a3386;
+    margin: 0 auto;
+    position: relative;
+    transition: 1s;
+    transform: translateX(2000px);
+    margin-right: 200px;
+
+}
+.Empresa.show{
+
+    transform: translateX(0px);
+}
+
+.Empresa::before{
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -500px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../IMGS/Rafa.png);
+    background-repeat: no-repeat;
+    transition: 1s;
+    transform: translateX(-3000px);
+
+}
+.Empresa.show::before{
+    
+    transform: translateX(0px);
+}
+
+.btnPrima {
+
+    width: 250px; 
+    height: 75px; 
+    border-radius: 10px; 
+    font-family:'Negrita';
+    font-size: 20px;
+    color: #000000;
+    background-color: #E6E6E6;
+    position: relative;
+    left: 100px;
+    border: none;
+    transition: 0.5s;
+
+}
+
+.btnPrima:hover {
+
+    background-color: #ffffff;
+    transform: scale(1.1);
+}
+
+.btnSegu {
+
+    width: 300px; 
+    height: 80px; 
+    border-radius: 10px; 
+    font-family:'Negrita';
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1a3b81;
+    position: relative;
+    left: 180px;
+    border: none;
+    transition: 0.5s;
+}
+.btnSegu:hover {
+
+    background-color: #1a2181;
+    transform: scale(1.1);
+}
+
+span {color:  #1a3b81;}
+
+/*
+video{
+
+    display: block;
+}*/
+
+.logoML {
+
+position: absolute;
+left: 780px;
+height: 100px;
+opacity: 0;
+transform: translateY(-100px);
+transition: 1s;
+
+}
+.logoML.show {
+
+opacity: 1;
+transform: translateY(0px);
+}
+
+.SeguImg{width: 100%; height: 600px;}
+
+.TerciImg{width: 100%; height: 600px;}
+
+.back {height: 600px;}
+
+.Trabalho {
+
+    font-size: 80px;
+    font-family: 'Arial';
+    text-align: center;
+}
+
+.Allogos img {
+
+    width: 250px;
+    transition: 1s;
+    padding-left: 50px;
+
+}
+
+.Allogos img:hover {transform: scale(1.2);}
+
+.fundoCarossel{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E293B;
+
+}
+
+.carousel-item img {object-fit: contain;}
+
+.FundoAva{
+
+    width: 100%;
+    background-color: #d4d4d4;
+
+}
+.Feedb{
+
+    text-align: center; 
+    font-family: 'Negrita'; 
+    font-size: 50px;
+    
+    
+}
+
+#carossel {
+    height: 150px;  /* Definindo altura fixa */   
+    width: 100%;  /* Garante que o carrossel ocupe 100% da largura disponível */
+    max-width: 60%;  /* Limita a largura máxima para 60% */
+    
+}
+
+/*RODAPE*/
+
+footer {
+
+    font-family: 'Nexa', Helvetica, sans-serif;
+    background-color:#393939;
+    width: 100%;
+    color: #ffffff;
+    border-top: 2px solid #000000;
+    z-index: 999;
+}
+
+.RodapeInt{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Listalinks{
+
+    position: relative;
+}
+
+.Listalinks ul {font-size: 18px;}
+
+.Listalinks li a {
+
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.Listalinks li a:hover {text-decoration: underline;}
+
+.ListaRedes{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 80px;
+}
+
+.TextoMenu {
+
+    color:#3F87BC; 
+    font-size:25px;
+    font-family: 'Negrita', Times, serif;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    right: 10px;
+    position: relative;
+    
+}
+
+.TextoRedes {
+
+    color:#3F87BC; 
+    font-size:25px; 
+    font-family: 'Negrita', Times, serif;
+    position: relative;
+    top: -8px;
+}
+
+.icones{
+
+    color: #ffffff; 
+    font-size: 40px;
+    transition: 0.2s;
+}
+
+.fac:hover{color: rgb(20, 3, 255); transform: scale(1.1);}
+
+.zap:hover{color: rgb(53, 255, 3); transform: scale(1.1);}
+
+.inst:hover{color: rgb(252, 4, 128); transform: scale(1.1);}
+
+.TextoContato{
+
+    font-size: 18px;
+    position: relative;
+    left: 200px;
+}
+
+.Descricao{text-align: end; font-size: 24px;padding-top: 20px;}
+
+.Primuslogo{
+    
+    width: 300px;
+    left: -150px; 
+    position: relative; 
+}
+
+.TextoFinal {
+    
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Arial';
+    padding-bottom: 2px;
+
+}
+/*Tamanhos de Tela*/
+
+.Tamanhos {
+
+    max-width: 25%;
+    flex: 0 0 25%;
+}
+
+@media (max-width:1170px) {
+
+.Tamanhos {
+
+max-width: 33%;
+flex: 0 0 33%;
+
+}
+
+h1{font-size: 60px;}
+
+h2{font-size: 19px;}
+
+h3{font-size: 60px}
+
+.MercadoLivre {font-size: 20px;}
+
+h5 {font-size: 60px;}
+
+h6 {font-size: 20px;}
+
+}
+@media (max-width:862px) {
+
+.Tamanhos {
+
+max-width: 50%;
+flex: 0 0 50%;
+
+}}

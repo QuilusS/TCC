@@ -62,8 +62,6 @@ C:\Users\KF\OneDrive\Desktop\Primu's\TCC\Primus\obj\Debug\net9.0\compressed\xcrs
 C:\Users\KF\OneDrive\Desktop\Primu's\TCC\Primus\obj\Debug\net9.0\compressed\y5d25erhxq-h1s4sie4z3.gz
 C:\Users\KF\OneDrive\Desktop\Primu's\TCC\Primus\obj\Debug\net9.0\compressed\tub9k78a2p-63fj8s7r0e.gz
 C:\Users\KF\OneDrive\Desktop\Primu's\TCC\Primus\obj\Debug\net9.0\compressed\xp5jtxyetb-0j3bgjxly4.gz
-C:\Users\KF\OneDrive\Desktop\Primu's\TCC\Primus\obj\Debug\net9.0\compressed\8qylhsm7x2-aeow22yh8l.gz
-C:\Users\KF\OneDrive\Desktop\Primu's\TCC\Primus\obj\Debug\net9.0\compressed\rb6zi7d6ds-aeow22yh8l.gz
 C:\Users\KF\OneDrive\Desktop\Primu's\TCC\Primus\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\KF\OneDrive\Desktop\Primu's\TCC\Primus\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\KF\OneDrive\Desktop\Primu's\TCC\Primus\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -78,3 +76,5 @@ C:\Users\KF\OneDrive\Desktop\Primu's\TCC\Primus\obj\Debug\net9.0\refint\Primus.d
 C:\Users\KF\OneDrive\Desktop\Primu's\TCC\Primus\obj\Debug\net9.0\Primus.pdb
 C:\Users\KF\OneDrive\Desktop\Primu's\TCC\Primus\obj\Debug\net9.0\Primus.genruntimeconfig.cache
 C:\Users\KF\OneDrive\Desktop\Primu's\TCC\Primus\obj\Debug\net9.0\ref\Primus.dll
+C:\Users\KF\OneDrive\Desktop\Primu's\TCC\primus\obj\Debug\net9.0\compressed\8qylhsm7x2-2wcvm1u5e2.gz
+C:\Users\KF\OneDrive\Desktop\Primu's\TCC\primus\obj\Debug\net9.0\compressed\rb6zi7d6ds-2wcvm1u5e2.gz

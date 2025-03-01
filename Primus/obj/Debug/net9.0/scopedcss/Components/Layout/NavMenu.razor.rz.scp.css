@@ -51,16 +51,10 @@
 
 .nav-item[b-xkxg402u5g] {
     font-size: 0.9rem;
-    padding-bottom: 0.5rem;
+    padding-top: 0rem;
 }
 
-    .nav-item:first-of-type[b-xkxg402u5g] {
-        padding-top: 1rem;
-    }
-
-    .nav-item:last-of-type[b-xkxg402u5g] {
-        padding-bottom: 1rem;
-    }
+    
 
     .nav-item[b-xkxg402u5g]  .nav-link {
         color: #d7d7d7;

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KF\\OneDrive\\Desktop\\Primu's\\TCC\\Primus\\Primus.csproj": {}
+    "C:\\Users\\KF\\OneDrive\\Desktop\\Primu's\\TCC\\primus\\Primus.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KF\\OneDrive\\Desktop\\Primu's\\TCC\\Primus\\Primus.csproj": {
+    "C:\\Users\\KF\\OneDrive\\Desktop\\Primu's\\TCC\\primus\\Primus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KF\\OneDrive\\Desktop\\Primu's\\TCC\\Primus\\Primus.csproj",
+        "projectUniqueName": "C:\\Users\\KF\\OneDrive\\Desktop\\Primu's\\TCC\\primus\\Primus.csproj",
         "projectName": "Primus",
-        "projectPath": "C:\\Users\\KF\\OneDrive\\Desktop\\Primu's\\TCC\\Primus\\Primus.csproj",
+        "projectPath": "C:\\Users\\KF\\OneDrive\\Desktop\\Primu's\\TCC\\primus\\Primus.csproj",
         "packagesPath": "C:\\Users\\KF\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KF\\OneDrive\\Desktop\\Primu's\\TCC\\Primus\\obj\\",
+        "outputPath": "C:\\Users\\KF\\OneDrive\\Desktop\\Primu's\\TCC\\primus\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
