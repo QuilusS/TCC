@@ -110,3 +110,13 @@ C:\Users\KF\OneDrive\Desktop\PrimusAuto\primus\obj\Debug\net9.0\compressed\5yq7m
 C:\Users\KF\OneDrive\Desktop\PrimusAuto\primus\obj\Debug\net9.0\compressed\ob606wb8u7-eypx8v9dtu.gz
 C:\Users\KF\OneDrive\Desktop\PrimusAuto\primus\obj\Debug\net9.0\compressed\yl9wq8er2g-5yzrhzajgd.gz
 C:\Users\KF\OneDrive\Desktop\PrimusAuto\primus\obj\Debug\net9.0\Primus.csproj.Up2Date
+C:\Users\KF\OneDrive\Desktop\TCC\primusauto\primus\obj\Debug\net9.0\Primus.csproj.AssemblyReference.cache
+C:\Users\KF\OneDrive\Desktop\TCC\primusauto\primus\obj\Debug\net9.0\Primus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KF\OneDrive\Desktop\TCC\primusauto\primus\obj\Debug\net9.0\Primus.AssemblyInfoInputs.cache
+C:\Users\KF\OneDrive\Desktop\TCC\primusauto\primus\obj\Debug\net9.0\Primus.AssemblyInfo.cs
+C:\Users\KF\OneDrive\Desktop\TCC\primusauto\primus\obj\Debug\net9.0\Primus.csproj.CoreCompileInputs.cache
+C:\Users\KF\OneDrive\Desktop\TCC\primusauto\primus\obj\Debug\net9.0\Primus.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\KF\OneDrive\Desktop\TCC\primusauto\primus\obj\Debug\net9.0\Primus.sourcelink.json
+C:\Users\KF\OneDrive\Desktop\TCC\primusauto\primus\obj\Debug\net9.0\Primus.dll
+C:\Users\KF\OneDrive\Desktop\TCC\primusauto\primus\obj\Debug\net9.0\refint\Primus.dll
+C:\Users\KF\OneDrive\Desktop\TCC\primusauto\primus\obj\Debug\net9.0\Primus.pdb

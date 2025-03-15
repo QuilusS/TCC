@@ -9,45 +9,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Primus
 build_property.RootNamespace = Primus
-build_property.ProjectDir = C:\Users\KF\OneDrive\Desktop\TCC\PrimusAuto\Primus\
+build_property.ProjectDir = C:\Users\KF\OneDrive\Desktop\TCC\primusauto\primus\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\KF\OneDrive\Desktop\TCC\PrimusAuto\Primus
+build_property.MSBuildProjectDirectory = C:\Users\KF\OneDrive\Desktop\TCC\primusauto\primus
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/KF/OneDrive/Desktop/TCC/PrimusAuto/Primus/Components/App.razor]
+[C:/Users/KF/OneDrive/Desktop/TCC/primusauto/primus/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KF/OneDrive/Desktop/TCC/PrimusAuto/Primus/Components/Pages/Error.razor]
+[C:/Users/KF/OneDrive/Desktop/TCC/primusauto/primus/Components/Pages/Contato.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb250YXRvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KF/OneDrive/Desktop/TCC/primusauto/primus/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KF/OneDrive/Desktop/TCC/PrimusAuto/Primus/Components/Pages/Inicio.razor]
+[C:/Users/KF/OneDrive/Desktop/TCC/primusauto/primus/Components/Pages/Inicio.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xJbmljaW8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KF/OneDrive/Desktop/TCC/PrimusAuto/Primus/Components/Pages/Sobre.razor]
+[C:/Users/KF/OneDrive/Desktop/TCC/primusauto/primus/Components/Pages/Localizacao.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMb2NhbGl6YWNhby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KF/OneDrive/Desktop/TCC/primusauto/primus/Components/Pages/Noticias.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xOb3RpY2lhcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KF/OneDrive/Desktop/TCC/primusauto/primus/Components/Pages/Produtos.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdXRvcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KF/OneDrive/Desktop/TCC/primusauto/primus/Components/Pages/Sobre.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTb2JyZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KF/OneDrive/Desktop/TCC/PrimusAuto/Primus/Components/Routes.razor]
+[C:/Users/KF/OneDrive/Desktop/TCC/primusauto/primus/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KF/OneDrive/Desktop/TCC/PrimusAuto/Primus/Components/_Imports.razor]
+[C:/Users/KF/OneDrive/Desktop/TCC/primusauto/primus/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KF/OneDrive/Desktop/TCC/PrimusAuto/Primus/Components/Layout/MainLayout.razor]
+[C:/Users/KF/OneDrive/Desktop/TCC/primusauto/primus/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-e79p0mo5a7
 
-[C:/Users/KF/OneDrive/Desktop/TCC/PrimusAuto/Primus/Components/Layout/NavMenu.razor]
+[C:/Users/KF/OneDrive/Desktop/TCC/primusauto/primus/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-xkxg402u5g

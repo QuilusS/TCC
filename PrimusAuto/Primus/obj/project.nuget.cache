@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3LofVDi6USQ=",
+  "dgSpecHash": "/BxjiM8QoC4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\KF\\OneDrive\\Desktop\\TCC\\PrimusAuto\\Primus\\Primus.csproj",
+  "projectFilePath": "C:\\Users\\KF\\OneDrive\\Desktop\\TCC\\primusauto\\primus\\Primus.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KF\\.nuget\\packages\\microsoft.aspnetcore.authorization\\9.0.3\\microsoft.aspnetcore.authorization.9.0.3.nupkg.sha512",
     "C:\\Users\\KF\\.nuget\\packages\\microsoft.aspnetcore.components\\9.0.3\\microsoft.aspnetcore.components.9.0.3.nupkg.sha512",
