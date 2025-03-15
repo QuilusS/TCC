@@ -1,0 +1,585 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Primus.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Primus.ro3rwgq1nz.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\FONTS\\Nexa-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\FONTS\\Nexa-ExtraLight.ttf"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\FONTS\\Nexa-Heavy.ttf",
+      "PackagePath": "staticwebassets\\FONTS\\Nexa-Heavy.ttf"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\FONTS\\SHADSER.TTF",
+      "PackagePath": "staticwebassets\\FONTS\\SHADSER.TTF"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\FONTS\\StormGust.ttf",
+      "PackagePath": "staticwebassets\\FONTS\\StormGust.ttf"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Avaliações\\1.png",
+      "PackagePath": "staticwebassets\\IMGS\\Avaliações\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Avaliações\\10.png",
+      "PackagePath": "staticwebassets\\IMGS\\Avaliações\\10.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Avaliações\\2.png",
+      "PackagePath": "staticwebassets\\IMGS\\Avaliações\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Avaliações\\3.png",
+      "PackagePath": "staticwebassets\\IMGS\\Avaliações\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Avaliações\\4.png",
+      "PackagePath": "staticwebassets\\IMGS\\Avaliações\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Avaliações\\5.png",
+      "PackagePath": "staticwebassets\\IMGS\\Avaliações\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Avaliações\\6.png",
+      "PackagePath": "staticwebassets\\IMGS\\Avaliações\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Avaliações\\7.png",
+      "PackagePath": "staticwebassets\\IMGS\\Avaliações\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Avaliações\\8.png",
+      "PackagePath": "staticwebassets\\IMGS\\Avaliações\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Avaliações\\9.png",
+      "PackagePath": "staticwebassets\\IMGS\\Avaliações\\9.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\FotoFrenti.jpg",
+      "PackagePath": "staticwebassets\\IMGS\\FotoFrenti.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\FrentePrimus.jpg",
+      "PackagePath": "staticwebassets\\IMGS\\FrentePrimus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Icone Loja.png",
+      "PackagePath": "staticwebassets\\IMGS\\Icone Loja.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logo Primus.jpg",
+      "PackagePath": "staticwebassets\\IMGS\\Logo Primus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logoreal.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logoreal.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\3rh01.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\3rh01.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\Anroi.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\Anroi.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\Brosol.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\Brosol.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\Cobreq.webp",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\Cobreq.webp"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\Cofap.jpg",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\Cofap.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\Continental1.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\Continental1.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\Controil.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\Controil.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\Dayco.webp",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\Dayco.webp"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\Driveway2.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\Driveway2.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\Ds.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\Ds.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\Ecopads.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\Ecopads.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\Elring.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\Elring.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\FAG.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\FAG.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\Ina.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\Ina.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\Jurid.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\Jurid.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\LOGO SYL PASTILHAS COM BORDA.webp",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\LOGO SYL PASTILHAS COM BORDA.webp"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\Luk.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\Luk.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\MLATUALIZADO.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\MLATUALIZADO.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\MTE.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\MTE.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\MagnetiMarelli.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\MagnetiMarelli.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\MagnetiMarelli2.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\MagnetiMarelli2.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\Mahle.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\Mahle.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\Mahle2.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\Mahle2.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\Mercado livre.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\Mercado livre.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\Metalststem.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\Metalststem.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\NGKNTK.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\NGKNTK.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\Nakata.webp",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\Nakata.webp"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\Ngk2.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\Ngk2.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\Perfect.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\Perfect.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\SABO.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\SABO.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\Schadek.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\Schadek.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\Skf2.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\Skf2.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\Spicer.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\Spicer.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\TRW.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\TRW.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\Taranto.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\Taranto.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\Tecfil1.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\Tecfil1.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\VAleo.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\VAleo.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\Viemar.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\Viemar.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\Visconde.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\Visconde.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\Wega.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\Wega.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\logo-ima.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\logo-ima.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Logos\\teste.png",
+      "PackagePath": "staticwebassets\\IMGS\\Logos\\teste.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Loja.png",
+      "PackagePath": "staticwebassets\\IMGS\\Loja.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\LojaBranco.png",
+      "PackagePath": "staticwebassets\\IMGS\\LojaBranco.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\ML.jpeg",
+      "PackagePath": "staticwebassets\\IMGS\\ML.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Peças\\DALL·E 2025-01-30 18.47.30 - A standard car radiator with a clean, detailed appearance, extremely flattened horizontally, emphasizing its width to create a low-profile look. It ha.webp",
+      "PackagePath": "staticwebassets\\IMGS\\Peças\\DALL·E 2025-01-30 18.47.30 - A standard car radiator with a clean, detailed appearance, extremely flattened horizontally, emphasizing its width to create a low-profile look. It ha.webp"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Peças\\Disco.png",
+      "PackagePath": "staticwebassets\\IMGS\\Peças\\Disco.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Peças\\DiscoDes.png",
+      "PackagePath": "staticwebassets\\IMGS\\Peças\\DiscoDes.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Peças\\Filtro.png",
+      "PackagePath": "staticwebassets\\IMGS\\Peças\\Filtro.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Peças\\FiltroDes.png",
+      "PackagePath": "staticwebassets\\IMGS\\Peças\\FiltroDes.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Peças\\Pivo.png",
+      "PackagePath": "staticwebassets\\IMGS\\Peças\\Pivo.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Peças\\PivoDes.png",
+      "PackagePath": "staticwebassets\\IMGS\\Peças\\PivoDes.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Peças\\Radiador.png",
+      "PackagePath": "staticwebassets\\IMGS\\Peças\\Radiador.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Peças\\RadiadorDes.png",
+      "PackagePath": "staticwebassets\\IMGS\\Peças\\RadiadorDes.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Peças\\Roda.png",
+      "PackagePath": "staticwebassets\\IMGS\\Peças\\Roda.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Peças\\RodaDes.png",
+      "PackagePath": "staticwebassets\\IMGS\\Peças\\RodaDes.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Peças\\Screenshot_1.png",
+      "PackagePath": "staticwebassets\\IMGS\\Peças\\Screenshot_1.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Peças\\Screenshot_2.png",
+      "PackagePath": "staticwebassets\\IMGS\\Peças\\Screenshot_2.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Peças\\Screenshot_3.png",
+      "PackagePath": "staticwebassets\\IMGS\\Peças\\Screenshot_3.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Peças\\Vela.png",
+      "PackagePath": "staticwebassets\\IMGS\\Peças\\Vela.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Primus antiga.jpg",
+      "PackagePath": "staticwebassets\\IMGS\\Primus antiga.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\PrimusEntrada.jpeg",
+      "PackagePath": "staticwebassets\\IMGS\\PrimusEntrada.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\Rafa.png",
+      "PackagePath": "staticwebassets\\IMGS\\Rafa.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\favicon.ico",
+      "PackagePath": "staticwebassets\\IMGS\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\IMGS\\wrench.png",
+      "PackagePath": "staticwebassets\\IMGS\\wrench.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\JAVASCRIPT\\jsCadastro.js",
+      "PackagePath": "staticwebassets\\JAVASCRIPT\\jsCadastro.js"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\JAVASCRIPT\\jsCont.js",
+      "PackagePath": "staticwebassets\\JAVASCRIPT\\jsCont.js"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\JAVASCRIPT\\jsLoca.js",
+      "PackagePath": "staticwebassets\\JAVASCRIPT\\jsLoca.js"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\JAVASCRIPT\\jsLogin.js",
+      "PackagePath": "staticwebassets\\JAVASCRIPT\\jsLogin.js"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\JAVASCRIPT\\jsNotic.js",
+      "PackagePath": "staticwebassets\\JAVASCRIPT\\jsNotic.js"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\JAVASCRIPT\\jsProdut.js",
+      "PackagePath": "staticwebassets\\JAVASCRIPT\\jsProdut.js"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\JAVASCRIPT\\jsSobre.js",
+      "PackagePath": "staticwebassets\\JAVASCRIPT\\jsSobre.js"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\JAVASCRIPT\\jsTelaIni.js",
+      "PackagePath": "staticwebassets\\JAVASCRIPT\\jsTelaIni.js"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\VIDEOS\\ODESZA - A Moment Apart.mp4",
+      "PackagePath": "staticwebassets\\VIDEOS\\ODESZA - A Moment Apart.mp4"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\KF\\OneDrive\\Desktop\\PrimusAuto\\primus\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Primus.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Primus.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Primus.props",
+      "PackagePath": "build\\Primus.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Primus.props",
+      "PackagePath": "buildMultiTargeting\\Primus.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Primus.props",
+      "PackagePath": "buildTransitive\\Primus.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
