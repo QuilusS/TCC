@@ -155,7 +155,6 @@ C:\Users\KF\OneDrive\Desktop\TCC\primusauto\primus\obj\Debug\net9.0\scopedcss\Co
 C:\Users\KF\OneDrive\Desktop\TCC\primusauto\primus\obj\Debug\net9.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
 C:\Users\KF\OneDrive\Desktop\TCC\primusauto\primus\obj\Debug\net9.0\scopedcss\bundle\Primus.styles.css
 C:\Users\KF\OneDrive\Desktop\TCC\primusauto\primus\obj\Debug\net9.0\scopedcss\projectbundle\Primus.bundle.scp.css
-C:\Users\KF\OneDrive\Desktop\TCC\primusauto\primus\obj\Debug\net9.0\compressed\teqaywnmfu-ncnaf9n6m7.gz
 C:\Users\KF\OneDrive\Desktop\TCC\primusauto\primus\obj\Debug\net9.0\compressed\uaavm8rtoo-53fkkd95pt.gz
 C:\Users\KF\OneDrive\Desktop\TCC\primusauto\primus\obj\Debug\net9.0\compressed\c6ap3s7xdn-5h5p793b29.gz
 C:\Users\KF\OneDrive\Desktop\TCC\primusauto\primus\obj\Debug\net9.0\compressed\ufefh1opbc-0n6oidwam6.gz
@@ -223,3 +222,4 @@ C:\Users\KF\OneDrive\Desktop\TCC\primusauto\primus\obj\Debug\net9.0\staticwebass
 C:\Users\KF\OneDrive\Desktop\TCC\primusauto\primus\obj\Debug\net9.0\Primus.csproj.Up2Date
 C:\Users\KF\OneDrive\Desktop\TCC\primusauto\primus\obj\Debug\net9.0\Primus.genruntimeconfig.cache
 C:\Users\KF\OneDrive\Desktop\TCC\primusauto\primus\obj\Debug\net9.0\ref\Primus.dll
+C:\Users\KF\OneDrive\Desktop\TCC\primusauto\primus\obj\Debug\net9.0\compressed\teqaywnmfu-p0scvvzsw0.gz

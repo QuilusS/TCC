@@ -17,6 +17,8 @@ nav {
     justify-content: space-evenly;
     z-index: 9999;
     top: 0;
+    left:0;
+    right: 0;
     backdrop-filter: none;
 
     
@@ -57,3 +59,8 @@ nav {
     
         color: #3F87BC;
     }
+
+    nav button i {
+        color: #1E1E1E;
+    }
+    nav button u {color: black;}

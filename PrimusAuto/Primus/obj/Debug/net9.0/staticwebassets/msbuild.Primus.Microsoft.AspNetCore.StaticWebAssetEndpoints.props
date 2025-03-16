@@ -3,14 +3,14 @@
     <StaticWebAssetEndpoint Include="_content/Primus/app.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-SUhGpDyo\u002BjbDF2CDqNo2MBPV0OtRv7xollMHjj5JuhM="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"9162"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022SUhGpDyo\u002BjbDF2CDqNo2MBPV0OtRv7xollMHjj5JuhM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 20:31:41 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-J1xU0hGXmf7IiC7CUVIdIFWzQDxXlrn7dkT6/eb/j6Y="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"9162"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022J1xU0hGXmf7IiC7CUVIdIFWzQDxXlrn7dkT6/eb/j6Y=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 22:10:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Primus/app.ncnaf9n6m7.css">
+    <StaticWebAssetEndpoint Include="_content/Primus/app.p0scvvzsw0.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ncnaf9n6m7"},{"Name":"integrity","Value":"sha256-SUhGpDyo\u002BjbDF2CDqNo2MBPV0OtRv7xollMHjj5JuhM="},{"Name":"label","Value":"_content/Primus/app.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9162"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022SUhGpDyo\u002BjbDF2CDqNo2MBPV0OtRv7xollMHjj5JuhM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 20:31:41 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"p0scvvzsw0"},{"Name":"integrity","Value":"sha256-J1xU0hGXmf7IiC7CUVIdIFWzQDxXlrn7dkT6/eb/j6Y="},{"Name":"label","Value":"_content/Primus/app.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9162"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022J1xU0hGXmf7IiC7CUVIdIFWzQDxXlrn7dkT6/eb/j6Y=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 22:10:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Primus/favicon.ifv42okdf2.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.png'))</AssetFile>

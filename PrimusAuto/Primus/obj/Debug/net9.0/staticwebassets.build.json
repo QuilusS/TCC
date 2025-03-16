@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2L88Stx5Ve+b/xWfNaiocRUyB8FVF4RpZ4TPc8mwUsk=",
+  "Hash": "uQZLwZ5cSAc5Za30mgpaVzBZd3RR2QfRt6hgGHkf8Hk=",
   "Source": "Primus",
   "BasePath": "_content/Primus",
   "Mode": "Default",
@@ -794,12 +794,12 @@
       "OriginalItemSpec": "C:\\Users\\KF\\OneDrive\\Desktop\\TCC\\primusauto\\primus\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\KF\\OneDrive\\Desktop\\TCC\\primusauto\\primus\\obj\\Debug\\net9.0\\compressed\\teqaywnmfu-ncnaf9n6m7.gz",
+      "Identity": "C:\\Users\\KF\\OneDrive\\Desktop\\TCC\\primusauto\\primus\\obj\\Debug\\net9.0\\compressed\\teqaywnmfu-p0scvvzsw0.gz",
       "SourceId": "Primus",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KF\\OneDrive\\Desktop\\TCC\\primusauto\\primus\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Primus",
-      "RelativePath": "app#[.{fingerprint=ncnaf9n6m7}]?.css.gz",
+      "RelativePath": "app#[.{fingerprint=p0scvvzsw0}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -808,8 +808,8 @@
       "RelatedAsset": "C:\\Users\\KF\\OneDrive\\Desktop\\TCC\\primusauto\\primus\\wwwroot\\app.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "0k4gtjmqcp",
-      "Integrity": "8DtF0ITulw6E/zmyUtsva02T9LVXY0a6iuSGl/NHQL4=",
+      "Fingerprint": "d09k47twod",
+      "Integrity": "nTpYVij3WV0EntUSVA61bMjW+JSulMw+sDStm/GLISc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\KF\\OneDrive\\Desktop\\TCC\\primusauto\\primus\\wwwroot\\app.css"
@@ -1249,8 +1249,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ncnaf9n6m7",
-      "Integrity": "SUhGpDyo+jbDF2CDqNo2MBPV0OtRv7xollMHjj5JuhM=",
+      "Fingerprint": "p0scvvzsw0",
+      "Integrity": "J1xU0hGXmf7IiC7CUVIdIFWzQDxXlrn7dkT6/eb/j6Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\app.css"
@@ -4157,12 +4157,12 @@
   "Endpoints": [
     {
       "Route": "app.css",
-      "AssetFile": "C:\\Users\\KF\\OneDrive\\Desktop\\TCC\\primusauto\\primus\\obj\\Debug\\net9.0\\compressed\\teqaywnmfu-ncnaf9n6m7.gz",
+      "AssetFile": "C:\\Users\\KF\\OneDrive\\Desktop\\TCC\\primusauto\\primus\\obj\\Debug\\net9.0\\compressed\\teqaywnmfu-p0scvvzsw0.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000324254215"
+          "Quality": "0.000323939099"
         }
       ],
       "ResponseHeaders": [
@@ -4172,15 +4172,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3083"
+          "Value": "3086"
         },
         {
           "Name": "ETag",
-          "Value": "\"8DtF0ITulw6E/zmyUtsva02T9LVXY0a6iuSGl/NHQL4=\""
+          "Value": "\"nTpYVij3WV0EntUSVA61bMjW+JSulMw+sDStm/GLISc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 20:31:41 GMT"
+          "Value": "Sat, 15 Mar 2025 22:10:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4200,13 +4200,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"SUhGpDyo+jbDF2CDqNo2MBPV0OtRv7xollMHjj5JuhM=\""
+          "Value": "W/\"J1xU0hGXmf7IiC7CUVIdIFWzQDxXlrn7dkT6/eb/j6Y=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-SUhGpDyo+jbDF2CDqNo2MBPV0OtRv7xollMHjj5JuhM="
+          "Value": "sha256-J1xU0hGXmf7IiC7CUVIdIFWzQDxXlrn7dkT6/eb/j6Y="
         }
       ]
     },
@@ -4229,11 +4229,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SUhGpDyo+jbDF2CDqNo2MBPV0OtRv7xollMHjj5JuhM=\""
+          "Value": "\"J1xU0hGXmf7IiC7CUVIdIFWzQDxXlrn7dkT6/eb/j6Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 20:31:41 GMT"
+          "Value": "Sat, 15 Mar 2025 22:10:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4243,13 +4243,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-SUhGpDyo+jbDF2CDqNo2MBPV0OtRv7xollMHjj5JuhM="
+          "Value": "sha256-J1xU0hGXmf7IiC7CUVIdIFWzQDxXlrn7dkT6/eb/j6Y="
         }
       ]
     },
     {
       "Route": "app.css.gz",
-      "AssetFile": "C:\\Users\\KF\\OneDrive\\Desktop\\TCC\\primusauto\\primus\\obj\\Debug\\net9.0\\compressed\\teqaywnmfu-ncnaf9n6m7.gz",
+      "AssetFile": "C:\\Users\\KF\\OneDrive\\Desktop\\TCC\\primusauto\\primus\\obj\\Debug\\net9.0\\compressed\\teqaywnmfu-p0scvvzsw0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4258,7 +4258,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3083"
+          "Value": "3086"
         },
         {
           "Name": "Content-Type",
@@ -4266,11 +4266,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8DtF0ITulw6E/zmyUtsva02T9LVXY0a6iuSGl/NHQL4=\""
+          "Value": "\"nTpYVij3WV0EntUSVA61bMjW+JSulMw+sDStm/GLISc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 20:31:41 GMT"
+          "Value": "Sat, 15 Mar 2025 22:10:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4288,18 +4288,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8DtF0ITulw6E/zmyUtsva02T9LVXY0a6iuSGl/NHQL4="
+          "Value": "sha256-nTpYVij3WV0EntUSVA61bMjW+JSulMw+sDStm/GLISc="
         }
       ]
     },
     {
-      "Route": "app.ncnaf9n6m7.css",
-      "AssetFile": "C:\\Users\\KF\\OneDrive\\Desktop\\TCC\\primusauto\\primus\\obj\\Debug\\net9.0\\compressed\\teqaywnmfu-ncnaf9n6m7.gz",
+      "Route": "app.p0scvvzsw0.css",
+      "AssetFile": "C:\\Users\\KF\\OneDrive\\Desktop\\TCC\\primusauto\\primus\\obj\\Debug\\net9.0\\compressed\\teqaywnmfu-p0scvvzsw0.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000324254215"
+          "Quality": "0.000323939099"
         }
       ],
       "ResponseHeaders": [
@@ -4309,15 +4309,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3083"
+          "Value": "3086"
         },
         {
           "Name": "ETag",
-          "Value": "\"8DtF0ITulw6E/zmyUtsva02T9LVXY0a6iuSGl/NHQL4=\""
+          "Value": "\"nTpYVij3WV0EntUSVA61bMjW+JSulMw+sDStm/GLISc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 20:31:41 GMT"
+          "Value": "Sat, 15 Mar 2025 22:10:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4337,13 +4337,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"SUhGpDyo+jbDF2CDqNo2MBPV0OtRv7xollMHjj5JuhM=\""
+          "Value": "W/\"J1xU0hGXmf7IiC7CUVIdIFWzQDxXlrn7dkT6/eb/j6Y=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ncnaf9n6m7"
+          "Value": "p0scvvzsw0"
         },
         {
           "Name": "label",
@@ -4351,12 +4351,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-SUhGpDyo+jbDF2CDqNo2MBPV0OtRv7xollMHjj5JuhM="
+          "Value": "sha256-J1xU0hGXmf7IiC7CUVIdIFWzQDxXlrn7dkT6/eb/j6Y="
         }
       ]
     },
     {
-      "Route": "app.ncnaf9n6m7.css",
+      "Route": "app.p0scvvzsw0.css",
       "AssetFile": "C:\\Users\\KF\\OneDrive\\Desktop\\TCC\\primusauto\\primus\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4374,11 +4374,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SUhGpDyo+jbDF2CDqNo2MBPV0OtRv7xollMHjj5JuhM=\""
+          "Value": "\"J1xU0hGXmf7IiC7CUVIdIFWzQDxXlrn7dkT6/eb/j6Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 20:31:41 GMT"
+          "Value": "Sat, 15 Mar 2025 22:10:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4388,7 +4388,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ncnaf9n6m7"
+          "Value": "p0scvvzsw0"
         },
         {
           "Name": "label",
@@ -4396,13 +4396,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-SUhGpDyo+jbDF2CDqNo2MBPV0OtRv7xollMHjj5JuhM="
+          "Value": "sha256-J1xU0hGXmf7IiC7CUVIdIFWzQDxXlrn7dkT6/eb/j6Y="
         }
       ]
     },
     {
-      "Route": "app.ncnaf9n6m7.css.gz",
-      "AssetFile": "C:\\Users\\KF\\OneDrive\\Desktop\\TCC\\primusauto\\primus\\obj\\Debug\\net9.0\\compressed\\teqaywnmfu-ncnaf9n6m7.gz",
+      "Route": "app.p0scvvzsw0.css.gz",
+      "AssetFile": "C:\\Users\\KF\\OneDrive\\Desktop\\TCC\\primusauto\\primus\\obj\\Debug\\net9.0\\compressed\\teqaywnmfu-p0scvvzsw0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4411,7 +4411,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3083"
+          "Value": "3086"
         },
         {
           "Name": "Content-Type",
@@ -4419,11 +4419,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8DtF0ITulw6E/zmyUtsva02T9LVXY0a6iuSGl/NHQL4=\""
+          "Value": "\"nTpYVij3WV0EntUSVA61bMjW+JSulMw+sDStm/GLISc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 20:31:41 GMT"
+          "Value": "Sat, 15 Mar 2025 22:10:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4441,7 +4441,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ncnaf9n6m7"
+          "Value": "p0scvvzsw0"
         },
         {
           "Name": "label",
@@ -4449,7 +4449,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8DtF0ITulw6E/zmyUtsva02T9LVXY0a6iuSGl/NHQL4="
+          "Value": "sha256-nTpYVij3WV0EntUSVA61bMjW+JSulMw+sDStm/GLISc="
         }
       ]
     },
