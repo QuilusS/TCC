@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Primus")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7975aebe562362e074d48463e729494b2bfcec9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+203a43a36c62f2cb32d992bcac97901b0733e9aa")]
 [assembly: System.Reflection.AssemblyProductAttribute("Primus")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Primus")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
