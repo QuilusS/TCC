@@ -3,6 +3,6 @@ Nosso TCC, temos que fazer um site para um auto peças, que seja capaz de falar 
 
 ATENÇÃO!!
 
-Para quem quer ver o código, recomendamos o arquivo mais recente .rar da Primu's, (Atualmente é o v1.8) e caso queira testar também, necessitada do Xampp e do MYSQL
+Para quem quer ver o código, recomendamos o arquivo mais recente .rar da Primu's, (Atualmente é o v1.9) e caso queira testar também, necessitada do Xampp e do MYSQL
 
-Atualizado em 08/04/2025
+Atualizado em 18/04/2025
