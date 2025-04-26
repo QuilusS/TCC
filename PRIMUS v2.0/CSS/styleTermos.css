@@ -1,0 +1,137 @@
+body {
+
+    background-color: #E6E6E6;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 1500px;
+
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url('../FONTS/LoraItalica.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../FONTS/Montserrat.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'MontserratBold';
+    src: url('../FONTS/Montserrat-Bold.ttf') format('truetype');
+}
+
+.Meio h1{
+    font-size: 30px;
+    color: #1a3b81;
+}
+
+
+.Meio {
+
+    height: auto;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.Cor {
+
+    background-color: #ffffff;
+    padding: 40px;
+
+}
+
+.Meio h3 {
+
+    font-family: "Montserrat";
+    font-size: 18px;
+
+}
+
+.Meio h4 {
+
+    font-family: "MontserratBold";
+    font-size: 20px;
+    font-weight: 700;
+    padding: 30px 0px;
+
+}
+
+.Meio p{
+
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    font-family: "Arial";
+    color: rgb(43, 43, 43);
+}
+
+ul{
+    margin: 0;
+    padding: 20px 20px;
+    
+}
+
+li{
+    padding: 5px;
+}
+
+.Meio p span {
+
+    color: #1a3b81;
+    font-weight: bold
+}
+
+.Meio a {
+    color: #1a3b81;
+    font-family: "Montserrat";
+    
+}
+
+/*Efeito scrool*/
+.EfeitoSubindo {
+
+    position: fixed; 
+    bottom: 0; 
+    padding: 20px 40px; 
+    z-index: 999;
+    opacity: 0;    
+    pointer-events: none; /*desativa a interação com o botão enquanto ele está invisível, sem precisar alterar o display*/
+    transition: opacity 1s ease;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+}
+.EfeitoSubindo.show{
+
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.EfeitoSubindo .fa-solid {font-size: 35px; color: #adadad; position: relative; margin: 0 auto; top: 10px;}
+
+.EfeitoSubindo button {
+
+    border: none;
+    background: #adadad;
+    border-radius: 100px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+}
+
+.EfeitoSubindo img {
+
+    width: 40px;
+    height: 40px;
+    transition: 1s;
+    animation: rotating 1s linear infinite;
+}
+
+@keyframes rotating {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
