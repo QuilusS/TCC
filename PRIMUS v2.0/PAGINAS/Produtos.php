@@ -1,3 +1,12 @@
+<?php
+session_start();
+include '../PHP/conexao.php'; // Inclui a conexão com o banco de dados
+
+// Consulta para buscar os produtos
+$sql = "SELECT id, nome, descricao, preco, imagem FROM produtos";
+$result = $conn->query($sql);
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -11,10 +20,7 @@
     <title>Produtos | Primu's Auto Peças</title>
 </head>
 <body>
-    <?php
-    session_start();
-    include '../PHP/navebar.php';
-    ?>
+    <?php include '../PHP/navebar.php'; ?>
 
     <main>
         <div class="Barra">
@@ -23,19 +29,33 @@
         <br><br>
         
         <div id="productContainer" class="product-container">
-            <!-- Caixas de produto -->
+            <?php
+            // Verifica se há produtos no banco de dados
+            if ($result->num_rows > 0):
+                while ($produto = $result->fetch_assoc()):
+            ?>
+                <div class="product-card">
+                    <img src="../IMGS/Produtos/<?php echo htmlspecialchars($produto['imagem']); ?>" alt="<?php echo htmlspecialchars($produto['nome']); ?>" class="product-image">
+                    <h3 class="product-name"><?php echo htmlspecialchars($produto['nome']); ?></h3>
+                    <p class="product-description"><?php echo htmlspecialchars($produto['descricao']); ?></p>
+                    <p class="product-price">R$ <?php echo number_format($produto['preco'], 2, ',', '.'); ?></p>
+                </div>
+            <?php
+                endwhile;
+            else:
+            ?>
+                <p>Nenhum produto encontrado.</p>
+            <?php endif; ?>
         </div>
 
         <div class="EfeitoSubindo" id="Subindo">
             <i class="fa-solid fa-arrow-up fa-beat"></i>
             <button onclick="Subir()"><img src="../IMGS/roda.png" alt="roda"></button>
         </div>
-
     </main>
 
     <script src="../JAVASCRIPT/jsProdut.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/d3aca5478d.js" crossorigin="anonymous"></script>
-
 </body>
 </html>
