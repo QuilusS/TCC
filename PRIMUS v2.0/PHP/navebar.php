@@ -69,6 +69,7 @@ include '../PHP/FormularioLogin.php';
             <?php unset($_SESSION['mensagem_bem_vindo']); // Remove a mensagem após exibi-la ?>
         <?php endif; ?>
     </header>
+    <script id="messenger-widget-b" src="https://cdn.botpenguin.com/website-bot.js" defer>'68293bcedab0f20526c6418b','68293b9b39a64266cc3ca350'</script>
 
     <script src="../JAVASCRIPT/jsFormulario.js"></script>
 </body>
