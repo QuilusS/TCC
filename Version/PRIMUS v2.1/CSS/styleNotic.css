@@ -1,0 +1,197 @@
+body {
+
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 500px;
+
+}
+/*BARRA DE NAV*/
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../FONTS/Montserrat.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'MontserratBold';
+    src: url('../FONTS/Montserrat-Bold.ttf') format('truetype');
+}
+
+.ImgNoticias {
+
+    width: 100%;
+    height: 450px;
+    
+}
+
+.TextoNotImg{
+    font-family:'MontserratBold';
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 50px;
+    text-shadow: 4px 4px 10px rgb(0, 0, 0);
+}
+
+.btn-container {
+    position: relative; 
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    padding-right: 10px;
+}
+
+.btnEditar, .btnCriar, .btnRemover{
+
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 2px;
+    font-family: "Montserrat";
+    transition: 0.7s;
+}
+
+.btnExcluir {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.btnCriar{background-color: rgb(81, 119, 24);}
+
+.btnCriar:hover{
+    background-color: rgb(59, 90, 14);
+    transform: scale(1.05);
+}
+
+.btnRemover{background-color: rgb(255, 0, 0);}
+
+.btnRemover:hover{
+    background-color: rgb(211, 0, 0);
+    transform: scale(1.05);
+}
+
+.btnEditar{background-color: #1a3b81;}
+
+.btnEditar:hover {
+    background-color: #1a2181;
+    transform: scale(1.05);
+}
+
+.AvisoNoticias {
+    font-family: 'Montserrat';
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noticias-container {
+    max-width: 1300px;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    justify-content: start;
+
+}
+
+.noticia-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    max-width: 400px;
+    position: relative;
+
+}
+
+.noticia-card.modo-exclusao .btn-excluir {
+    display: block;
+}
+
+.noticia-card:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    
+}
+
+.noticia-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    filter: brightness(0.9);
+    transition: filter 0,1s ease;
+    image-rendering: auto; /* Adicionado */
+
+}
+
+/* Efeito de brilho ao passar o mouse */
+.noticia-card:hover .noticia-img {
+    filter: brightness(1)}
+
+.noticia-conteudo {
+    padding: 20px;
+}
+
+.categoria {
+    display: inline-block;
+    background: #202a81;
+    color: #f1f1f1;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.noticia-titulo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+.noticia-descricao {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 15px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.noticia-link {
+    font-size: 0.9rem;
+    color: #202a81;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    
+}
+

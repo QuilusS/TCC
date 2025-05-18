@@ -1,0 +1,412 @@
+body {
+    background-color: #e9e9e9;
+    
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url('../FONTS/LoraItalica.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../FONTS/Montserrat.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'MontserratBold';
+    src: url('../FONTS/Montserrat-Bold.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 90px; /* Adiciona espaço para a navbar fixa */
+}
+
+nav {
+    background-color: #ffffff;
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}
+
+nav a {
+    margin-left: 20px;
+    color: #1E1E1E;
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+    top: 35px;
+    height: 20px;
+    font-family: 'Negrita', Times, serif;
+}
+
+nav a.active {
+    color: #3F87BC;
+    text-decoration: underline;
+}
+
+nav a:hover{
+    color: #3F87BC;
+    text-decoration:underline;
+}
+
+nav button {
+    border: none;
+    background: none;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    color: #3F87BC;
+}
+
+.button-group {
+    display: flex; /* Exibe os botões em linha */
+    gap: 0px; /* Espaço entre os botões */
+    margin: 20px; /* Margem ao redor do grupo de botões */
+    position: relative; /* Mantém os botões no fluxo da página */
+    justify-content: flex-start; /* Alinha os botões à esquerda */
+    align-items: center; /* Garante alinhamento vertical */
+}
+
+.criar-btn {
+    border: none;
+    background-color: #3F87BC;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.criar-btn:hover {
+    background-color: #2C6A9F;
+}
+
+button.criar-btn {
+    position: fixed;
+    top: 160px; 
+    left: 90px; 
+    border: none;
+    background-color: #3F87BC;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button.criar-btn:hover {
+    background-color: #2C6A9F;
+}
+
+.gerenciar-categorias-btn {
+    position: fixed;
+    top: 160px;
+    left: 200px;
+    border: none;
+    background-color: #3F87BC;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 10;
+    display: block;
+}
+
+.gerenciar-categorias-btn:hover {
+    background-color: #2C6A9F;
+}
+
+.form-popup {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #3F87BC; 
+    border-radius: 10px; 
+    z-index: 9;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+
+.form-container {
+    max-width: 400px;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #3F87BC; 
+    border-radius: 10px; 
+    height: 100%;
+}
+
+.wide-form {
+    max-width: 800px;
+    width: 800px;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.form-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.form-container input[type=text], .form-container textarea, .form-container input[type=file] {
+    width: 100%;
+    padding: 20px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #d3d3d3; 
+    border-radius: 10px; 
+}
+
+.form-container textarea {
+    height: 150px; 
+    resize: none; 
+    overflow: auto; 
+}
+
+.form-container input[type=text]:focus, .form-container textarea:focus, .form-container input[type=file]:focus {
+    background-color: #c0c0c0; 
+    outline: none;
+    border-radius: 10px; 
+}
+
+.form-container .btn {
+    background-color: #3F87BC;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+    border-radius: 5px; 
+}
+
+.form-buttons .btn {
+    width: 200px;
+}
+
+.form-container .btn:hover {
+    opacity: 1;
+}
+
+.form-container .cancel {
+    background-color: red;
+    border-radius: 5px; 
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 150px;
+    padding: 50px;
+}
+
+.product-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid #3F87BC;
+    border-radius: 15px;
+    background-color: white;
+    padding: 25px 20px;
+    height: auto;
+    min-height: 450px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+    width: 280px;
+    word-wrap: break-word;
+    margin: 15px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+}
+
+.product-display:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.product-display img {
+    max-width: 120px;
+    max-height: 120px;
+    object-fit: contain;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.product-display h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.product-display p {
+    font-size: 15px;
+    line-height: 1.4;
+    padding: 0 5px;
+    margin: 8px 0;
+    width: 100%;
+    text-align: left;
+}
+
+.product-display .product-info {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.product-display .product-price {
+    font-weight: bold;
+    color: #3F87BC;
+    font-size: 18px;
+}
+
+.product-display .product-category,
+.product-display .product-unit {
+    font-size: 14px;
+    color: #666;
+    background-color: #eee;
+    padding: 4px 8px;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 5px 0;
+}
+
+/* Botões na caixa de produto */
+.product-display .btn {
+    padding: 8px 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.product-display .btn.modify {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+}
+
+.product-display .btn.delete {
+    background-color: #f44336; /* Vermelho */
+    color: white;
+}
+
+.product-display .btn.modify:hover {
+    background-color: #45a049;
+}
+
+.product-display .btn.delete:hover {
+    background-color: #d32f2f;
+}
+
+/* Layout do gerenciador de categorias */
+#categoryManager {
+    width: 900px;
+    height: 600px;
+}
+
+.category-layout {
+    display: flex;
+    gap: 20px;
+    height: 100%;
+}
+
+.category-form-side {
+    flex: 1;
+}
+
+.category-list-side {
+    flex: 2;
+    overflow: hidden;
+}
+
+#categoryList {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 15px;
+    height: 100%;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+#categories {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#categories li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 8px 12px;
+    border-radius: 5px;
+    width: calc(33.33% - 7px); /* Três categorias por linha */
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+}
+
+#categories li .btn.delete {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 3px 8px;
+    margin-left: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#categories li .btn.delete:hover {
+    background-color: #d32f2f;
+}
+
+#productCategory, #productUnit {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #d3d3d3;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+#productCategory:focus, #productUnit:focus {
+    background-color: #c0c0c0;
+    outline: none;
+    border-radius: 10px;
+}

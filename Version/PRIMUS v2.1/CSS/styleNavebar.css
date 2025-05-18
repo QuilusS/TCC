@@ -1,0 +1,150 @@
+/*BARRA DE NAV*/
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../FONTS/Montserrat.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'MontserratBold';
+    src: url('../FONTS/Montserrat-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Lora';
+    src: url('../FONTS/LoraItalica.ttf') format('truetype');
+}
+
+nav {
+
+    background-color: #ffffff;
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 9998;
+    top: 0;
+    backdrop-filter: none;
+
+    
+}
+    
+nav a {
+    
+    color: #1E1E1E;
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+    top: 35px;
+    height: 20px;
+    font-family: 'MontserratBold';
+}
+    
+nav a.active {
+    color: #3F87BC;
+    text-decoration: underline;
+
+}
+
+nav a:hover{
+
+    color: #3F87BC;
+    text-decoration:underline;
+}
+
+nav button {
+
+    border: none;
+    background: none;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+nav button:hover {
+
+    color: #3F87BC;
+}
+
+.BarraVertical{
+    margin: 10px 0;
+    position: fixed;
+    width: 220px;
+    max-height: 440px;
+    min-height: 250px;
+    display: none;
+    right: 90px;
+    top: 90px;
+    background-color: #ffffff;
+    z-index: 9997;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid #9e9e9e;
+}
+
+.Usuario {
+
+    align-items: center;
+    display: flex;
+    font-size: 19px;
+    font-family: "Calibri";
+    
+}
+
+.Usuario img {
+
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    
+}
+
+.btnBarra {
+
+    background-color: #e7e7e7;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    color: #000000;
+    font-family:"Montserrat";
+    font-weight:400;
+    margin: 10px;
+    
+}
+
+.BarraVertical a{
+
+    text-decoration: none;
+    color: #000000;
+
+}
+
+.btnBarra:hover {background-color: #cccccc;}
+
+.BarraVertical hr {
+
+    padding-top: 10px;
+}
+
+.TextoLogin {
+
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    font-family: "Lora";
+    font-size: 50px;
+    color: #1a3b81;
+    text-shadow: 3px 3px 1px #ffffff;
+    transition: 1s;
+    transform: translateX(-100px);
+    opacity: 0;
+
+}
+
+.TextoLogin.ativa {
+
+    transform: translateX(0);
+    opacity: 1;
+
+}
+

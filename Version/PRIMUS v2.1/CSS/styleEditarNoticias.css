@@ -1,0 +1,240 @@
+body {
+
+    background-color: #e1f1fc;
+    margin: 0;
+    padding: 0;
+    height: 500px;
+    overflow-y: hidden;
+
+}
+
+.FundoForm {
+
+    border-radius: 10px;
+    background-color:  #f8fafc;
+    padding: 30px 40px;
+    width: 100%;
+    height: auto;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.FundoTexto{
+
+    border-radius: 10px;
+    background-color:  #203046;
+    padding: 30px 40px;
+    width: 100%;
+    height: auto;
+    box-shadow: -3px 3px 10px rgb(145, 145, 145);
+    margin-left: 0;
+
+}
+
+.FundoTexto p {
+
+    font-family: 'Arial'; 
+    font-size: 18px; 
+    color: #ffffff; 
+    margin-bottom: 28px;
+
+}
+
+.FundoTexto h2 {
+
+    font-family: 'MontserratBold'; 
+    font-size: 28px; 
+    margin-bottom: 18px; 
+    color: #ffffff;
+
+}
+
+.FundoTexto li{padding-bottom: 10px; padding-left: 10px;}
+
+.FundoTexto ol{
+
+    font-family: 'Montserrat'; 
+    font-size: 16px; 
+    color: #ffffff; 
+    text-align: left; 
+    max-width: 460px; 
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.FundoForm h1 {
+    font-family: 'MontserratBold';
+    text-align: center;
+    font-size: 30px;
+    color: #1a3b81;
+    padding: 10px;
+}
+
+.FundoForm p {
+
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 20px;
+    color: #203046;
+    padding: 5px;
+}
+
+.FundoForm label {
+
+    font-family: "MontserratBold";
+    font-size: 17px;
+    color: #203046;
+    text-align: center;
+    
+}
+
+.TextImagem{
+    align-items: start;
+}
+
+.FundoForm input[type="text"]{
+
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+    outline: none;
+    background-color: #f7f7f7;
+    margin-bottom: 20px;
+    transition: 0.6s ease;
+    font-family: "Arial";
+    font-size: 17px;
+
+}
+
+.FundoForm input[type="categoria"]{
+
+    padding: 12px 12px;
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+    outline: none;
+    background-color: #f7f7f7;
+    transition: 0.6s ease;
+    width: 90%; 
+    height: 50px;
+    font-size: 17px;
+    font-family: "Arial";
+
+}   
+
+.FundoForm textarea{
+
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+    outline: none;
+    background-color: #f7f7f7;
+    margin-bottom: 20px;
+    height: 250px;
+    transition: 0.6s ease;
+    font-size: 17px;
+    font-family: "Arial";
+    resize: none;
+
+    
+}
+
+.FundoMid{
+
+    text-align: center;
+    font-family: "MontserratBold";
+    color: #203046;
+    font-size: 20px;
+}
+
+.FundoForm button[type="submit"]{
+
+    width: 50%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1a3b81;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Montserrat";
+    transition: 0.6s ease;
+
+}
+
+input[type="file"] {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.BotaoImagem {
+    
+    padding: 0px 16px;
+    font-family: "Montserrat", sans-serif;
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f7f7f7;
+    transition: 0.6s ease;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;           
+    text-align: center;     
+    line-height: 50px; 
+    position: relative;
+    z-index: 1;
+}
+
+.nowrap-label {
+    white-space: nowrap;
+}
+
+.FundoForm button[type="submit"]:hover{background-color: #1a2181;transform: scale(1.05);}
+
+.Voltar{
+
+    outline: none;
+    border: none;
+    background: none;
+
+}
+
+.container-fluid > .row > .col-4 {
+    padding-left: 20px !important;
+    padding-right: 15px !important;
+}
+
+.MidButton {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.FundoForm input[type="text"]:hover, input[type="categoria"]:hover, textarea:hover {border: 1px solid #1A2692;}
+
+input[type="file"]:hover + .BotaoImagem,
+input[type="file"]:focus + .BotaoImagem {
+    border: 1px solid #1A2692;
+    cursor: pointer;
+}
+
+.FundoForm input[type="text"]:focus, input[type="categoria"]:focus, textarea:focus, .BotaoImagem:active {background-color: #f3f3f3;}
+
+.nome-arquivo {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #203046;
+    margin-top: 5px;
+    text-align: center;
+    word-break: break-all;
+}

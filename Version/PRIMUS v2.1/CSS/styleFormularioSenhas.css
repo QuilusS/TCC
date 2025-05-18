@@ -1,0 +1,149 @@
+body {
+
+    background-color: #cacaca;
+    margin: 0;
+    padding: 0;
+
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url('../FONTS/LoraItalica.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../FONTS/Montserrat.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'MontserratBold';
+    src: url('../FONTS/Montserrat-Bold.ttf') format('truetype');
+}
+
+.Caixa {
+
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.BackAlterar {
+
+    background-color: #E6E6E6;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.BackAlterar label {
+
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.BackAlterar h1 {
+
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 20px;
+}
+
+.BackAlterar h2 {
+
+    font-size: 15px;
+    text-align: justify;
+    padding-bottom: 10px;
+    font-family: 'Montserrat';
+    color: #3b3b3b;
+}
+
+.BackAlterar input[type="password"], input[type="text"] {
+
+    width: 100%;
+    outline: none;
+    background-color: #e0e0e0;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: 1px solid #9b9b9b;
+}
+
+.BackAlterar input[type="password"]:focus{border: 1px solid #1A2692;}
+
+button[type="submit"] {
+
+    background-color: #2f7aaf;
+    width: 100%;
+    height: 50px;
+    color: white;
+    border-radius: 5px;
+    font-family: 'MontserratBold';
+    font-size: 17px;
+    letter-spacing: 2px;
+    margin: 20px 0;
+    outline: none;
+    border: none;
+}
+
+button[type="submit"]:hover {
+
+    background-color:  #245f8a;
+}
+
+.TextoCopy{
+
+    text-align: center;
+    color: #363636;
+    font-size: 15px;
+    font-family: 'Arial';
+}
+
+.IconeSenha{
+
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.IconeSenha i {
+
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+
+.IconeSenha2{
+
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.IconeSenha2 i {
+
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+
+#MensagemErroSenha, #MensagemErroSenha2{
+
+    color: red;
+    font-size: 14px;
+    margin-bottom: 5px;
+    
+}
+
+#AvisoSenha{
+
+    padding-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
