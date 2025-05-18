@@ -1,0 +1,19 @@
+body {
+
+    background-color: #E6E6E6;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+/*BARRA DE NAV*/
+
+@font-face {
+    font-family: 'Negrita';
+    src: url('../FONTS/Nexa-Heavy.ttf') format('truetype'); 
+}
+@font-face {
+    font-family: 'Nexa';
+    src: url('../FONTS/Nexa-ExtraLight.ttf') format('truetype');
+}
+

@@ -1,0 +1,436 @@
+body {
+
+    background-color: #E6E6E6;
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+    overflow-x: hidden;
+
+}
+/*BARRA DE NAV*/
+@font-face {
+    font-family: 'Negrita';
+    src: url('../FONTS/Nexa-Heavy.ttf') format('truetype'); 
+}
+@font-face {
+    font-family: 'Nexa';
+    src: url('../FONTS/Nexa-ExtraLight.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Lora';
+    src: url('../FONTS/LoraItalica.ttf') format('truetype');
+}
+
+nav {
+
+background-color: #ffffff;
+width: 100%;
+height: 90px;
+position: fixed;
+display: flex;
+justify-content: space-evenly;
+z-index: 999;
+
+}
+
+nav a {
+
+    color: #1E1E1E;
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+    top: 35px;
+    height: 20px;
+    font-family: 'Negrita', Times, serif;
+}
+
+nav a.active {
+    color: #3F87BC;
+    text-decoration: underline;
+
+}
+
+nav a:hover{
+
+    color: #3F87BC;
+    text-decoration:underline;
+}
+
+nav button {
+
+    border: none;
+    background: none;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+nav button:hover {
+
+    color: #3F87BC;
+}
+/*MAIN*/
+
+.ImgLocalizacao {
+
+    width: 100%;
+    height: 450px;
+    
+}
+
+h2{
+    font-family:'Negrita';
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:  #ffffff;   
+    font-size: 50px;
+    text-shadow: 4px 4px 10px rgb(0, 0, 0);
+
+}
+
+h1 {
+    font-size: 50px;
+    font-family:'Lora';
+    padding-top: 80px;
+    padding-left: 100px;
+    color: #1a3b81;
+
+}
+
+h3{
+
+    font-size: 25px;
+    text-align: start;
+    padding-left: 100px;
+    font-family: 'Calibri';
+    color: black;
+}
+
+h4{
+
+    padding-left: 50px;
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+    text-align: start;
+    font-size: 21px;
+    font-weight: 300;
+
+
+
+}
+
+h5 {
+
+    color: white;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+h6 {
+
+    font-size: 21px;
+    padding-right: 50px;
+    color: black;
+    font-weight: 300;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+.Endereco p {
+
+    font-size: 25px;
+    padding-left: 50px;
+    color: #1a3b81;
+
+}
+
+.Telefones p {
+
+    font-size: 25px;
+    padding-right: 50px;
+    color: #1a3b81;
+
+
+}
+
+.TextoHora{
+
+    padding-left: 220px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.fundoMid{
+
+    background-color: rgb(218, 218, 218);
+    width: 1150px;
+    height: 750px;
+    border:1px solid #ebebeb;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+span {
+
+    display: block;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #1a3b81;
+    font-weight: bold;
+
+}
+
+iframe {
+
+    border:5px solid rgb(255, 255, 255); 
+    position: relative; 
+    top: 12%;
+
+}
+
+.Caixa {
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 500px;
+    text-align: center;
+    left: 150px;
+    position: relative;
+    top: -200px;
+    
+}
+
+.FundoCaixa{background-color: rgb(204, 204, 204);height: 550px;}
+
+.Caixa img {
+
+    padding-top: 10px;
+    height: 300px;
+    width: 450px;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.BordaP {
+
+    background-color: #1a3b81;
+    height: 70px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TextosPrimus {
+
+    display: flex;
+    justify-content:space-between;
+}
+
+.Tabela{padding-left: 200px;}
+
+table {
+
+    background-color: rgb(235, 235, 235);
+    width: 400px;
+    border-collapse: collapse;
+    box-shadow: 3px 3px 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+
+}
+
+.Horario{
+
+    position: relative;
+    left: -230px;
+}
+
+td {
+
+    padding: 10px 20px;
+    width: 5%;
+    text-align: center;
+    
+}
+
+td:nth-child(2) {width: 5%;}
+
+.cinza {background-color: #1a3b81; color: white;}
+
+.Back {
+
+    background-color: rgb(214, 214, 214);
+    height: 750px;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+/*Efeito scrool*/
+.EfeitoSubindo {
+
+    position: fixed; 
+    bottom: 0; 
+    padding: 20px 40px; 
+    z-index: 999;
+    opacity: 0;    
+    pointer-events: none; /*desativa a interação com o botão enquanto ele está invisível, sem precisar alterar o display*/
+    transition: opacity 1s ease;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+}
+.EfeitoSubindo.show{
+
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.EfeitoSubindo .fa-solid {font-size: 35px; color: #adadad; position: relative; margin: 0 auto; top: 10px;}
+
+.EfeitoSubindo button {
+
+    border: none;
+    background: #adadad;
+    border-radius: 100px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+}
+
+.EfeitoSubindo img {
+
+    width: 40px;
+    height: 40px;
+    transition: 1s;
+    animation: rotating 1s linear infinite;
+}
+
+@keyframes rotating {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+/*RODAPE*/
+
+footer {
+
+    font-family: 'Nexa', Helvetica, sans-serif;
+    background-color:#1d1d1d;
+    width: 100%;
+    color: #ffffff;
+    border-top: 2px solid #000000;
+    z-index: 999;
+}
+
+.RodapeInt{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Listalinks{
+
+    position: relative;
+}
+
+.Listalinks ul {font-size: 18px;}
+
+.Listalinks li a {
+
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.Listalinks li a:hover {text-decoration: underline;}
+
+.ListaRedes{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 80px;
+}
+
+.TextoMenu {
+
+    color:#3F87BC; 
+    font-size:25px;
+    font-family: 'Negrita', Times, serif;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    right: 10px;
+    position: relative;
+    
+}
+
+.TextoRedes {
+
+    color:#3F87BC; 
+    font-size:25px; 
+    font-family: 'Negrita', Times, serif;
+    position: relative;
+    top: -8px;
+}
+
+.icones{
+
+    color: #ffffff; 
+    font-size: 40px;
+    transition: 0.2s;
+}
+
+.fac:hover{color: rgb(20, 3, 255); transform: scale(1.1);}
+
+.zap:hover{color: rgb(53, 255, 3); transform: scale(1.1);}
+
+.inst:hover{color: rgb(252, 4, 128); transform: scale(1.1);}
+
+.TextoContato{
+
+    font-size: 18px;
+    position: relative;
+    left: 200px;
+}
+
+.Descricao{text-align: end; font-size: 24px;padding-top: 20px;}
+
+.Primuslogo{
+    
+    width: 300px;
+    left: -150px; 
+    position: relative; 
+}
+
+.TextoFinal {
+    
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Arial';
+    padding-bottom: 2px;
+
+}
+
+.TextoFinal a {
+
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.TextoFinal a:hover {
+
+    color: #c4c4c4;
+
+}

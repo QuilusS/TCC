@@ -1,0 +1,262 @@
+body {
+
+    background-color: #E6E6E6;
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+    overflow-x: hidden;
+
+}
+/*BARRA DE NAV*/
+@font-face {
+    font-family: 'Negrita';
+    src: url('../FONTS/Nexa-Heavy.ttf') format('truetype'); 
+}
+@font-face {
+    font-family: 'Nexa';
+    src: url('../FONTS/Nexa-ExtraLight.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Lora';
+    src: url('../FONTS/LoraItalica.ttf') format('truetype');
+}
+
+/*MAIN*/
+
+.ImgLocalizacao {
+
+    width: 100%;
+    height: 450px;
+    
+}
+
+h2{
+    font-family:'Negrita';
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:  #ffffff;   
+    font-size: 50px;
+    text-shadow: 4px 4px 10px rgb(0, 0, 0);
+
+}
+
+h1 {
+    font-size: 50px;
+    font-family:'Lora';
+    padding-top: 80px;
+    padding-left: 100px;
+    color: #1a3b81;
+
+}
+
+h3{
+
+    font-size: 25px;
+    text-align: start;
+    padding-left: 100px;
+    font-family: 'Calibri';
+    color: black;
+}
+
+.Endereco h4{
+
+    padding-left: 50px;
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+    text-align: start;
+    font-size: 21px;
+    font-weight: 300;
+
+}
+
+h5 {
+
+    color: white;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+h6 {
+
+    font-size: 21px;
+    padding-right: 50px;
+    color: black;
+    font-weight: 300;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+.Endereco p {
+
+    font-size: 25px;
+    padding-left: 50px;
+    color: #1a3b81;
+
+}
+
+.Telefones p {
+
+    font-size: 25px;
+    padding-right: 50px;
+    color: #1a3b81;
+
+
+}
+
+.TextoHora{
+
+    padding-left: 220px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.fundoMid{
+
+    background-color: rgb(218, 218, 218);
+    width: 1150px;
+    height: 750px;
+    border:1px solid #ebebeb;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+iframe {
+
+    border:5px solid rgb(255, 255, 255); 
+    position: relative; 
+    top: 12%;
+
+}
+
+.Caixa {
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 500px;
+    text-align: center;
+    left: 150px;
+    position: relative;
+    top: -200px;
+    
+}
+
+.FundoCaixa{background-color: rgb(204, 204, 204);height: 550px;}
+
+.Caixa img {
+
+    padding-top: 10px;
+    height: 300px;
+    width: 450px;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.BordaP {
+
+    background-color: #1a3b81;
+    height: 70px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TextosPrimus {
+
+    display: flex;
+    justify-content:space-between;
+}
+
+.Tabela{padding-left: 200px;}
+
+table {
+
+    background-color: rgb(235, 235, 235);
+    width: 400px;
+    border-collapse: collapse;
+    box-shadow: 3px 3px 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+
+}
+
+.Horario{
+
+    position: relative;
+    left: -230px;
+}
+
+td {
+
+    padding: 10px 20px;
+    width: 5%;
+    text-align: center;
+    
+}
+
+td:nth-child(2) {width: 5%;}
+
+.cinza {background-color: #1a3b81; color: white;}
+
+.Back {
+
+    background-color: rgb(214, 214, 214);
+    height: 750px;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+/*Efeito scrool*/
+.EfeitoSubindo {
+
+    position: fixed; 
+    bottom: 0; 
+    padding: 20px 40px; 
+    z-index: 999;
+    opacity: 0;    
+    pointer-events: none; /*desativa a interação com o botão enquanto ele está invisível, sem precisar alterar o display*/
+    transition: opacity 1s ease;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+}
+.EfeitoSubindo.show{
+
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.EfeitoSubindo .fa-solid {font-size: 35px; color: #adadad; position: relative; margin: 0 auto; top: 10px;}
+
+.EfeitoSubindo button {
+
+    border: none;
+    background: #adadad;
+    border-radius: 100px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+}
+
+.EfeitoSubindo img {
+
+    width: 40px;
+    height: 40px;
+    transition: 1s;
+    animation: rotating 1s linear infinite;
+}
+
+@keyframes rotating {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}

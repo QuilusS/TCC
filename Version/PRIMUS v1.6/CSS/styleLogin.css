@@ -1,0 +1,133 @@
+body {
+
+    background-color: #D4D4D4;
+}
+
+.TelaLogin {
+
+    width: 400px;
+    height: 600px;
+    background-color: #E6E6E6;
+    margin: 0 auto;
+    margin-top: 200px;
+    border-radius: 10px;
+    position: relative;
+    padding: 30px;
+    
+}
+
+.flex {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+
+}
+
+.PLogin{
+
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+
+label {
+    
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="password"]{
+
+    width: 340px;
+    max-width: auto;
+    outline: none;
+    background-color: #D4D4D4;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: 1px solid #9b9b9b;
+}
+
+input[type="text"]:focus, input[type="password"]:focus{
+
+    border: 1px solid #1A2692;
+}
+
+.Esqueceu{
+
+    color: #1A2692;
+    font-size: 18px;
+    padding: 4px 30px;
+    font-family:'Arial';
+    margin: 0;
+    padding: 0;
+    
+}
+
+a{text-decoration: none;color: #1A2692;display: inline-block;}
+
+a:hover{text-decoration: underline;}
+
+h4{
+    
+    font-size: 20px;
+    color: #3f3f3f;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+span{
+
+    color: #1A2692;
+    font-size: 22px;
+
+}
+
+.btnAvancar {
+
+    background-color: #3F87BC;
+    border: none;
+    width: 100px;
+    height: 50px;
+    color: white;
+    border-radius: 5px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+
+}
+
+.btnAvancar:hover {
+
+    background-color: #245f8a;
+    cursor: pointer;
+
+}
+
+.Check {
+    
+    position: relative;
+    left: 160px;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+input[type="checkbox"] {
+
+    cursor: pointer;
+}
+
+#MensagemErro, #MensagemErro2 {
+
+    margin: 0;
+    color: rgb(228, 0, 0);
+    font-size: 12px;
+    padding: 2px 0;
+}

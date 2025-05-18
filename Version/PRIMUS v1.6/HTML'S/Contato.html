@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/styleCont.css">
+    <link rel="shortcut icon" href="../IMGS/favicon.ico" type="image/x-icon">
+    <title>Atendimento | Primu's Auto Peças</title>
+    
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#" class="LogoP"><img src="../IMGS/Logoreal.png" alt="Logo Primus" style="width: 200px; position: relative; top: -25px;"></a>
+            <a href="TelaInicial.html" class="Inicio nav-link">Início</a>
+            <a href="Sobre.html" class="Sobre nav-link">Sobre</a>
+            <a href="Noticias.html" class="Noticias nav-link">Notícias</a>
+            <a href="Contato.html" class="Contato nav-link">Atendimento</a>
+            <a href="Localizacao.html" class="Localizacao nav-link">Localização</a>
+            <a href="Produtos.html" class="Produtos nav-link">Produtos</a>
+            <button><i class="fa-regular fa-user"></i></button>
+        </nav>        
+    </header>
+
+    <main>
+        <div><img src="../IMGS/loja.png" alt="Loja" class="ImgContato">
+            <h2>Atendimento</h2>
+        </div>
+        <br>
+        <h1>Fale Conosco</h1>
+        <br>
+        <h3>Caso tenha  alguma dúvida ou precise de ajuda, sinta-se à vontade para enviar uma mensagem <br>
+            pelo formulário, que será enviado para o Gmail, ou entrar em contato pelos outros meios de comunicação.<br>
+            Responderemos o mais rápido possível!!</h3>
+            
+        <br><br><br>
+
+        <div class="container">
+            <div class="row">
+                <div class="inf col-lg-6 col-12">
+                    <div class="Contatos">
+                        <p>Contatos</p>
+                        <ul>
+                            <li><i class="fa-solid fa-phone"></i> +55 (11) 2493-4441 | <i class="fa-solid fa-phone"></i> +55 (11) 99824-2660</li>
+                            <li><i class="fa-solid fa-phone"></i> +55 (11) 4260-0669 | <i class="fa-solid fa-phone"></i> +55 (11) 96913-7461</li>
+                            <li><i class="fa-solid fa-envelope"></i>&nbsp; primusautopecas2015@gmail.com</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="Endereco">
+                        <p>Endereço</p>
+                             <ul>
+                                  <li>Avenida Imperial 1576<br>Jardim Imperial, Atibaia - SP<br>Cep: 12950-000</li>
+                           </ul>
+                    </div>
+                    
+                    <div class="Redes">
+                        <p>Redes Socias</p>
+                        <div class="FundoRedes">
+                            <a href="https://www.facebook.com/primusautopecas15" target="_blank"><i class="fa-brands fa-facebook iconesP"></i></a>
+                            <a href="https://wa.me/5511970766083?text=Olá%20Mundo,%20Tudo%20bem%3F" target="_blank"><i class="fa-brands fa-whatsapp iconesP"></i></a>
+                            <a href="https://www.instagram.com/primus.auto.pecas/" target="_blank"><i class="fa-brands fa-instagram iconesP"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+
+
+                <div class="Formulario col-lg-6 col-12">
+
+
+                    <p>Formulário</p>
+                    <br><br><br>
+        
+                    <form id="MyFormu" autocomplete="off">
+        
+                        <input type="text" name="nomeCompleto" id="name" placeholder="Nome Completo">
+                        <p id="MensagemErro" style="display: none;"><i class="fa-solid fa-triangle-exclamation"></i>&nbsp;Campo obrigatório. Coloque seu nome completo.</p>
+
+                        <input type="text" id="email" name="email" placeholder="Email">
+                        <p id="MensagemErro2" style="display: none;"><i class="fa-solid fa-triangle-exclamation"></i>&nbsp;Campo obrigatório. Coloque seu email.</p>
+        
+                        <input type="text"  id="telefone" name='telefone' placeholder="Telefone: (  ) _____*____" maxlength="11">
+                        <p id="MensagemErro3" style="display: none;"><i class="fa-solid fa-triangle-exclamation"></i>&nbsp;Campo obrigatório. Coloque seu telefone.</p>
+
+                        <textarea name="mensagem" id="caixatexto" placeholder="Sua mensagem..."></textarea>
+                        <p id="MensagemErro4" style="display: none;"><i class="fa-solid fa-triangle-exclamation"></i>&nbsp;Campo obrigatório. Coloque sua mensagem.</p>
+
+
+                        <input type="submit" value="Enviar Mensagem" onclick="Loading()">
+                    </form>
+
+                    <div id="MyAviso"></div>
+
+                </div>
+            </div>
+        </div>    
+        
+    </main>
+
+    <br><br><br><br><br>
+
+    <footer>
+        <div class="RodapeInt">
+            <div style="position: relative;"><img src="../IMGS/Logoreal.png" class="Primuslogo" alt="Primus"></div>
+    
+            <div class="Listalinks">
+                <ul>
+                    <li style="list-style-type: none;" class="TextoMenu">Menu</li>    
+                    <li><a href="TelaInicial.html">Inicio</a></li>
+                    <li><a href="Sobre.html">Empresa</a></li>
+                    <li><a href="Noticias.html">Noticias</a></li>
+                    <li><a href="Contato.html">Atendimento</a></li>
+                    <li><a href="Localizacao.html">Localização</a></li>
+                    <li><a href="Produtos.html">Produtos</a></li>
+                    <li><a href="#Mercado">Agencia Mercado Livre</a></li>
+                </ul>
+            </div>
+
+            <div class="ListaRedes">
+                <p class="TextoRedes">Redes Socias</p></li>
+                <a href="https://www.facebook.com/primusautopecas15" target="_blank"><p><i class="fa-brands fa-facebook icones fac"></i></p></a>
+                <a href="https://wa.me/5511970766083?text=Olá%20Mundo,%20Tudo%20bem%3F" target="_blank"><p><i class="fa-brands fa-whatsapp icones zap"></i></p></a>
+                <a href="https://www.instagram.com/primus.auto.pecas/" target="_blank"><p><i class="fa-brands fa-instagram icones inst"></i></p></a>
+            </div>
+    
+            <div class="TextoContato">
+                    <p class="Descricao"
+                    >A auto peças em que você confia, especializada em peças para <br>motor, suspensão, direção, freio, câmbio e muito mais.</p>
+                    <br>
+                    <p class="TextoRodape"
+                    ><i class="fa-solid fa-phone"></i>  +55 (11) 2493-4441 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-phone"></i> +55 (11) 4260-0669</p>
+                    <p class="endereco1"
+                    >Avenida Imperial 1576, Jardim Imperial. Atibaia - SP, 12950-000</p>
+                    <p class="endereco2"
+                    >De Segunda à Sexta: 8h00 as 18h00<br>De Sabado: 8h00 as 13h00</p>
+            </div>
+        </div>        
+
+        <p class="TextoFinal">Copyright &copy; 2024-2024 Primu's Auto Peças - <a class="Termos" href="../HTML'S/Termos.html"> Créditos e Termos</a> | Todos os direitos reservados</p>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="../JAVASCRIPT/jsCont.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/d3aca5478d.js" crossorigin="anonymous"></script>
+</body>
+</html>

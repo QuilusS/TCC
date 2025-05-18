@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/styleLogin.css">
+    <link rel="shortcut icon" href="../IMGS/favicon.ico" type="image/x-icon">
+    <title>Login | Primu's Auto Peças</title>
+</head>
+<body>
+
+    <form action="" id="MyForm">
+        <div class="TelaLogin">
+            <div class="flex">
+                <img src="../IMGS/Logoreal.png" alt="LogoPrimus" width="220px" height="80px">
+            </div>
+            <br>
+            <p class="PLogin">Login</p>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Digite seu email">
+            <p id="MensagemErro" style="display: none;"><i class="fa-solid fa-triangle-exclamation"></i>&nbsp;Campo obrigatório. Coloque seu email.</p>
+
+            <label for="senha">Senha</label>
+            <label class="Check"><input type="checkbox" id="MostrarSenha">&nbsp;Mostrar Senha</label>
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha">
+            <p id="MensagemErro2" style="display: none;"><i class="fa-solid fa-triangle-exclamation"></i>&nbsp;Campo obrigatório. Coloque sua senha.</p>
+
+            <a href="#" target="_blank"><p class="Esqueceu">Esqueceu a senha?</p></a>
+            <br><br>
+            
+            <h4>Não possui uma conta?<br><span><a href="Cadastro.php">Cadastre aqui!</a></span></h4>
+            <input type="submit" value="Avançar" class="btnAvancar" id="btnAvancar">
+            
+            <br>
+
+        </div>
+    
+    </form>
+
+    <script src="../JAVASCRIPT/jsLogin.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/d3aca5478d.js" crossorigin="anonymous"></script>
+</body>
+</html>

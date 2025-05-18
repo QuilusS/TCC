@@ -1,0 +1,135 @@
+body {
+
+    background-color: #D4D4D4;
+    margin: 0;
+    padding: 0;
+    height: 1050px;
+    
+}
+
+.TelaCadastro {
+
+    width: 500px;
+    height: 1000px;
+    background-color: #E6E6E6;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 30px;
+    position: relative;
+    
+}
+
+.flex {
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+
+.CriarText{
+
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.Genero {
+
+    background-color: #D4D4D4;
+    height: 50px;
+    width: 200px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-right: #000000 2px solid;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+
+}
+
+p, label {
+    
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin: 0px;
+    
+}
+
+.Genero label {
+
+    font-weight: normal;
+    font-size: 15px;
+    padding-top: 0px;
+
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"]{
+
+    width: 440px;
+    max-width: auto;
+    outline: none;
+    background-color: #D4D4D4;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+.btnCadastrar{
+
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    background-color: #3F87BC;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    left: 50px;
+    
+}
+
+.btnCadastrar:hover {
+
+    background-color: #245f8a;
+    cursor: pointer;
+
+}
+
+.Concorda {
+
+    font-size: 15px;
+}
+
+span {
+
+    color:#1A2692;
+}
+
+.Todas {
+
+    display: flex;
+    justify-content: center;
+}
+
+.UltimoTexto {
+
+    text-align: center;
+    color: #3f3f3f;
+
+}
+
+.UltimoTexto a {
+
+    text-decoration: none;
+    color: #1A2692;
+    font-size: 22px;
+
+}
+
+.UltimoTexto a:hover {text-decoration: underline;}

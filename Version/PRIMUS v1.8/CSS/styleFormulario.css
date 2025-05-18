@@ -1,0 +1,143 @@
+.overlay {
+
+    position: fixed;
+    z-index: 9996;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.TelaLogin {
+
+    width: 400px;
+    height: 650px;
+    background-color: #E6E6E6;
+    margin: 0 auto;
+    border-radius: 10px;
+    position: relative;
+    padding: 30px;
+
+}
+
+.x {
+
+    right: 0;
+    top: 0;
+    position: absolute;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.flex {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.PLogin{
+
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+
+.TelaLogin label {
+
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.TelaLogin input[type="text"], input[type="password"]{
+
+    width: 340px;
+    max-width: auto;
+    outline: none;
+    background-color: #D4D4D4;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: 1px solid #9b9b9b;
+}
+
+.TelaLogin input[type="text"]:focus, input[type="password"]:focus{border: 1px solid #1A2692;}
+
+.Esqueceu{
+
+    color: #1A2692;
+    font-size: 18px;
+    padding: 4px 30px;
+    font-family:'Arial';
+    margin: 0;
+    padding: 0;
+
+}
+
+.TelaLogin a{text-decoration: none;color: #1A2692;display: inline-block;}
+
+.TelaLogin a:hover{text-decoration: underline;}
+
+.TelaLogin h4{
+
+    font-size: 23px;
+    color: #3f3f3f;
+    text-align: center;
+    display: block;
+    line-height: 1.5;
+    font-family: 'Calibri';
+
+}
+
+.TelaLogin span{
+
+    color: #1A2692;
+    font-size: 28px;
+
+}
+
+.btnAvancar {
+
+    margin-top: 20px;
+    background-color: #2a6d9c;
+    border: none;
+    width: 150px;
+    height: 50px;
+    color: white;
+    border-radius: 5px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+
+}
+
+.btnAvancar:hover {
+
+    background-color: #245f8a;
+    cursor: pointer;
+
+}
+
+.TelaLogin label.Check {
+
+    position: relative;
+    left: 140px;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.TelaLogin input[type="checkbox"] {cursor: pointer;}
+
+#MensagemErro, #MensagemErro2 {
+
+    margin: 0;
+    color: rgb(228, 0, 0);
+    font-size: 12px;
+    padding: 2px 0;
+}

@@ -1,0 +1,515 @@
+body {
+
+    background-color: #E6E6E6;
+    margin: 0;
+    padding: 0;
+    height: 1700px;
+
+}
+/*BARRA DE NAV*/
+
+@font-face {
+    font-family: 'Negrita';
+    src: url('../FONTS/Nexa-Heavy.ttf') format('truetype'); 
+}
+@font-face {
+    font-family: 'Nexa';
+    src: url('../FONTS/Nexa-ExtraLight.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Lora';
+    src: url('../FONTS/LoraItalica.ttf') format('truetype');
+}
+
+nav {
+
+background-color: #ffffff;
+width: 100%;
+height: 90px;
+position: fixed;
+display: flex;
+justify-content: space-evenly;
+z-index: 999;
+
+}
+
+nav a {
+
+    color: #1E1E1E;
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+    top: 35px;
+    height: 20px;
+    font-family: 'Negrita', Times, serif;
+}
+
+nav a.active {
+    color: #3F87BC;
+    text-decoration: underline;
+
+}
+
+nav a:hover{
+
+    color: #3F87BC;
+    text-decoration:underline;
+}
+
+nav button {
+
+    border: none;
+    background: none;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+nav button:hover {
+
+    color: #3F87BC;
+}
+
+/*MAIN*/
+
+.ImgContato {
+
+    width: 100%;
+    height: 450px;
+    
+}
+
+h2{
+    font-family:'Negrita', Times, serif;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 50px;
+    text-shadow: 4px 4px 10px rgb(0, 0, 0);
+
+}
+
+h1 {
+
+    padding-left: 200px;
+    font-size: 50px;
+    font-family:'Nexa';
+    padding-top: 100px;
+    color: #182280;
+    font-weight: 600;
+
+
+}
+
+h3{
+    padding-left: 200px;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 900px;
+    text-align: left;
+    
+}
+
+.Formulario {
+
+    height: 870px;
+    background-color: rgb(221, 221, 221);
+    padding: 30px;
+    border: 1px solid black;
+    box-shadow: 15px 15px 30px;
+    position: relative;
+    top: -50px;
+    box-sizing: border-box;
+    max-width: 600px;
+
+}
+
+.Formulario p {
+
+    color: #1A2692; 
+    font-family: 'Negrita'; 
+    font-size: 55px; 
+    z-index: 997;
+    height: 1px;
+    position: relative;
+    top: -20px;
+
+}
+
+.Formulario input[type=text]{
+    
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #d6d6d6;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Calibri';
+    border: 1px solid rgb(172, 172, 172);
+
+}
+
+.Formulario input[type=text]:focus{
+
+    border: 1px solid black;
+}
+
+.Formulario input[type=submit]{
+
+
+    height: 80px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border:  none;
+    background-color: #1A2692;
+    margin-top: 50px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Nexa';
+
+}
+
+.Formulario input[type=submit]:hover {
+
+    background-color: #141f7c;
+
+}
+
+input {margin-bottom: 20px;}
+
+textarea {
+
+    box-sizing: border-box;
+    background-color: #d6d6d6;
+    resize: none;
+    height: 200px;
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Calibri';
+    border: 1px solid rgb(172, 172, 172);
+
+}
+
+textarea:focus{border: 1px solid #000000}
+
+select {
+
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    background-color: #d6d6d6;
+    font-size: 20px;
+    font-family: 'Calibri';
+    border: 1px solid rgb(172, 172, 172);
+    color: rgb(116, 116, 116);
+    margin-bottom: 20px;
+    outline: none;
+    border-radius: 10px;
+
+    appearance: none;
+    background-image: url('../IMGS/seta-para-baixo.png');
+    background-repeat: no-repeat;
+    background-position: 480px 18px;
+    background-size: 30px;
+    cursor: pointer;
+
+}
+
+select:hover, select:active {
+    background-color:#d6d6d6;
+}
+
+select:focus{border: 1px solid black;}
+
+select option {
+    background-color: rgb(221, 221, 221);
+    color: #333;
+    border-radius: 20px;  /* Tenta arredondar as bordas das opções */
+}
+
+.Contatos p{
+
+    color: #1A2692; 
+    font-size: 40px; 
+    font-family: 'Nexa';  
+}
+
+.Contatos ul{list-style:none;padding-left: 0;margin-left: 0; padding-bottom: 20px;}
+
+.Contatos li {
+
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Calibri';
+
+}
+
+.Endereco p {
+
+    color: #1A2692; 
+    font-size: 40px; 
+    font-family: 'Nexa';
+    
+}
+
+.Endereco ul{list-style:none;padding-left: 0;margin-left: 0; padding-bottom: 20px;}
+
+.Endereco li{
+
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Calibri';
+}
+
+.Redes p {
+
+    color: #1A2692; 
+    font-size: 40px; 
+    font-family: 'Nexa';  
+}
+
+.FundoRedes{
+
+    display:flex;   
+    align-items:center;
+    gap: 40px;
+}
+
+.iconesP{
+
+    color: #000000; 
+    font-size: 40px;
+    transition: 0.5s;
+
+}
+
+.iconesP:hover{
+
+    transform: scale(1.1);
+}
+
+.inf {
+
+    position: relative;
+    right: 80px;
+    
+}
+
+span {
+    font-size: 27px;
+    font-weight: 600;
+}
+
+#MensagemErro, #MensagemErro2, #MensagemErro3, #MensagemErro5 {
+
+    margin: 0;
+    color: rgb(228, 0, 0);
+    font-size: 12px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+
+}
+#MensagemErro4 {
+
+    color: rgb(228, 0, 0);
+    font-size: 12px;
+    padding-left: 5px;
+    padding-top: 15px;
+}
+
+
+/*FUNCAO AVISO APOS ENVIO FORMULARIO*/
+#MyAviso {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+.sucesso {
+    display: block;
+    color: white;
+    background-color: rgb(0, 99, 0);
+    height: 50px;
+}
+
+.erro {
+    display: block;
+    color: white;
+    background-color: red;
+    height: 50px;
+
+}
+
+/*Efeito scrool*/
+.EfeitoSubindo {
+
+    position: fixed; 
+    bottom: 0; 
+    padding: 20px 40px; 
+    z-index: 999;
+    opacity: 0;    
+    pointer-events: none; /*desativa a interação com o botão enquanto ele está invisível, sem precisar alterar o display*/
+    transition: opacity 1s ease;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+}
+.EfeitoSubindo.show{
+
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.EfeitoSubindo .fa-solid {font-size: 35px; color: #adadad; position: relative; margin: 0 auto; top: 10px;}
+
+.EfeitoSubindo button {
+
+    border: none;
+    background: #adadad;
+    border-radius: 100px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+}
+
+.EfeitoSubindo img {
+
+    width: 40px;
+    height: 40px;
+    transition: 1s;
+    animation: rotating 1s linear infinite;
+}
+
+@keyframes rotating {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+/*RODAPE*/
+
+footer {
+
+    font-family: 'Nexa', Helvetica, sans-serif;
+    background-color:#1d1d1d;
+    width: 100%;
+    color: #ffffff;
+    z-index: 999;
+}
+
+.RodapeInt{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Listalinks{
+
+    position: relative;
+}
+
+.Listalinks ul {font-size: 18px;}
+
+.Listalinks li a {
+
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.Listalinks li a:hover {text-decoration: underline;}
+
+.ListaRedes{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 80px;
+}
+
+.TextoMenu {
+
+    color:#3F87BC; 
+    font-size:25px;
+    font-family: 'Negrita', Times, serif;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    right: 10px;
+    position: relative;
+    
+}
+
+.TextoRedes {
+
+    color:#3F87BC; 
+    font-size:25px; 
+    font-family: 'Negrita', Times, serif;
+    position: relative;
+    top: -8px;
+}
+
+.icones{
+
+    color: #ffffff; 
+    font-size: 40px;
+    transition: 0.2s;
+}
+
+.fac:hover{color: rgb(20, 3, 255); transform: scale(1.1);}
+
+.zap:hover{color: rgb(53, 255, 3); transform: scale(1.1);}
+
+.inst:hover{color: rgb(252, 4, 128); transform: scale(1.1);}
+
+.TextoContato{
+
+    font-size: 18px;
+    position: relative;
+    left: 200px;
+}
+
+.Descricao{text-align: end; font-size: 24px;padding-top: 20px;}
+
+.Primuslogo{
+    
+    width: 300px;
+    left: -150px; 
+    position: relative; 
+}
+
+.TextoFinal {
+    
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Arial';
+    padding-bottom: 2px;
+
+}
+
+.TextoFinal a {
+
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.TextoFinal a:hover {
+
+    color: #c4c4c4;
+
+}

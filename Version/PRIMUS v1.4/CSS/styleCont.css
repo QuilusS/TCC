@@ -1,0 +1,372 @@
+body {
+
+    background-color: #E6E6E6;
+    margin: 0;
+    padding: 0;
+    height: 1700px;
+
+}
+/*BARRA DE NAV*/
+
+@font-face {
+    font-family: 'Negrita';
+    src: url('../FONTS/Nexa-Heavy.ttf') format('truetype'); 
+}
+@font-face {
+    font-family: 'Nexa';
+    src: url('../FONTS/Nexa-ExtraLight.ttf') format('truetype');
+}
+
+nav {
+
+background-color: #ffffff;
+width: 100%;
+height: 90px;
+position: fixed;
+display: flex;
+justify-content: space-evenly;
+z-index: 999;
+
+}
+
+nav a {
+
+    color: #1E1E1E;
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+    top: 35px;
+    height: 20px;
+    font-family: 'Negrita', Times, serif;
+}
+
+nav a.active {
+    color: #3F87BC;
+    text-decoration: underline;
+
+}
+
+nav a:hover{
+
+    color: #3F87BC;
+    text-decoration:underline;
+}
+
+nav button {
+
+    border: none;
+    background: none;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+nav button:hover {
+
+    color: #3F87BC;
+}
+
+/*MAIN*/
+
+.ImgContato {
+
+    width: 100%;
+    height: 450px;
+    
+}
+
+h2{
+    font-family:'Negrita', Times, serif;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 50px;
+    text-shadow: 4px 4px 10px rgb(0, 0, 0);
+
+}
+
+h1 {
+
+    padding-left: 200px;
+    font-size: 50px;
+    font-family: 'Negrita', Times, serif;
+    padding-top: 100px;
+
+}
+
+h3{
+    padding-left: 200px;
+    font-size: 25px;
+    font-family: 'Calibri';
+}
+
+.Formulario {
+
+    height: 750px;
+    background-color: rgb(221, 221, 221);
+    padding: 30px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px;
+    position: relative;
+    top: -50px;
+
+}
+
+.Formulario p {
+
+    color: #1A2692; 
+    font-family: 'Negrita'; 
+    font-size: 55px; 
+    z-index: 997;
+    height: 1px;
+    position: relative;
+    top: -20px;
+
+}
+
+.Formulario input[type=text]{
+    
+
+    width: 100%;
+    padding: 15px 30px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: #D4D4D4;
+    box-sizing: border-box;
+    height: 70px;
+    font-size: 20px;
+    font-family: 'Arial';
+
+}
+
+.Formulario input[type=text]:focus{
+
+    border: 2px solid black;
+}
+
+.Formulario input[type=submit]{
+
+
+    height: 80px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border:  none;
+    background-color: #1A2692;
+    margin-top: 50px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Nexa';
+
+}
+
+.Formulario input[type=submit]:hover {
+
+    background-color: #141f7c;
+
+}
+
+input {margin-bottom: 20px;}
+
+textarea {
+
+    box-sizing: border-box;
+    background-color: #D4D4D4;
+    resize: none;
+    height: 200px;
+    width: 100%;
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: 'Arial';
+
+}
+
+textarea:focus{border: 2px solid #000000}
+
+.Contatos p{
+
+    color: #1A2692; 
+    font-size: 40px; 
+    font-family: 'Nexa';  
+}
+
+.Contatos ul{list-style:none;padding-left: 0;margin-left: 0;}
+
+.Contatos li {
+
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Calibri';
+
+}
+
+.Endereco p {
+
+    color: #1A2692; 
+    font-size: 40px; 
+    font-family: 'Nexa';  
+}
+
+.Endereco ul{list-style:none;padding-left: 0;margin-left: 0;}
+
+.Endereco li{
+
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-family: 'Calibri';
+}
+
+.Redes p {
+
+    color: #1A2692; 
+    font-size: 40px; 
+    font-family: 'Nexa';  
+}
+
+.FundoRedes{
+
+    display:flex;   
+    align-items:center;
+    gap: 40px;
+}
+
+.iconesP{
+
+    color: #000000; 
+    font-size: 40px;
+    transition: 0.5s;
+
+}
+
+.iconesP:hover{
+
+    transform: scale(1.1);
+}
+
+.inf {
+
+    position: relative;
+    right: 80px;
+    
+}
+
+/*RODAPE*/
+
+footer {
+
+    font-family: 'Nexa', Helvetica, sans-serif;
+    background-color:#393939;
+    width: 100%;
+    color: #ffffff;
+    border-top: 2px solid #000000;
+    z-index: 999;
+}
+
+.RodapeInt{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Listalinks{
+
+    position: relative;
+}
+
+.Listalinks ul {font-size: 18px;}
+
+.Listalinks li a {
+
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.Listalinks li a:hover {text-decoration: underline;}
+
+.ListaRedes{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 80px;
+}
+
+.TextoMenu {
+
+    color:#3F87BC; 
+    font-size:25px;
+    font-family: 'Negrita', Times, serif;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    right: 10px;
+    position: relative;
+    
+}
+
+.TextoRedes {
+
+    color:#3F87BC; 
+    font-size:25px; 
+    font-family: 'Negrita', Times, serif;
+    position: relative;
+    top: -8px;
+}
+
+.icones{
+
+    color: #ffffff; 
+    font-size: 40px;
+    transition: 0.2s;
+}
+
+.fac:hover{color: rgb(20, 3, 255); transform: scale(1.1);}
+
+.zap:hover{color: rgb(53, 255, 3); transform: scale(1.1);}
+
+.inst:hover{color: rgb(252, 4, 128); transform: scale(1.1);}
+
+.TextoContato{
+
+    font-size: 18px;
+    position: relative;
+    left: 200px;
+}
+
+.Descricao{text-align: end; font-size: 24px;padding-top: 20px;}
+
+.Primuslogo{
+    
+    width: 300px;
+    left: -150px; 
+    position: relative; 
+}
+
+.TextoFinal {
+    
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Arial';
+    padding-bottom: 2px;
+
+}
+
+.TextoFinal a {
+
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.TextoFinal a:hover {
+
+    color: #c4c4c4;
+
+}
