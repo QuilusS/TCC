@@ -21,7 +21,7 @@ Para executar este projeto, você precisará ter instalado:
    - Selecione **Browse** para abrir o diretório de instalação do MySQL.
    - Volte um diretório e entre na pasta **htdocs**.
 4. Mova a pasta **Primus** (do repositório clonado) para dentro da pasta **htdocs**.
-5. Crie a conexão com as seguintes informações:
+5. Crie a conexão no MySQL com as seguintes informações:
 
 ```php
 <?php
@@ -29,14 +29,6 @@ $host = "localhost";
 $usuario = "root";
 $senha = "";
 $bd = "primus_bd";
-
-// Cria a conexão
-$conn = new mysqli($host, $usuario, $senha, $bd);
-
-// Verifica a conexão
-if ($conn->connect_error) {
-    die("Conexão falha: " . $conn->connect_error);
-}
 ?>
 ```
 
