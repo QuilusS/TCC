@@ -15,7 +15,7 @@ Para executar este projeto, você precisará ter instalado:
 ### Configuração do Banco de Dados
 
 1. Clone este repositório para o seu computador.
-2. Dentro do repositório clonado, localize a pasta **banco de dados** e o arquivo `.sql`.
+2. Dentro do repositório clonado, localize a pasta **banco de dados** e o arquivo chamado  `Dump20250518.sql`.
 3. Importe esse arquivo para o seu servidor MySQL:
    - Acesse o painel do XAMPP e clique na caixa de **Config** do MySQL.
    - Selecione **Browse** para abrir o diretório de instalação do MySQL.
