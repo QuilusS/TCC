@@ -35,7 +35,7 @@ $bd = "primus_bd";
 6. Agora você pode acessar o projeto no navegador, usando o endereço:
 
 ```
-localhost/Primus/TelaInicial.php
+localhost/PRIMUS/TelaInicial.php
 ```
 
 ---
