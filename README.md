@@ -1,5 +1,4 @@
-# Vou exportar o conteúdo do arquivo README que está no canvas como um arquivo .md para facilitar o download.
-readme_content = """
+
 # Primus Autopeças - Projeto TCC
 
 Este repositório contém o código e as instruções para o desenvolvimento do site do projeto **Primus Autopeças**, parte do nosso TCC. O objetivo é criar uma plataforma para autopeças que ofereça informações sobre produtos, história, localização, contatos, notícias e outros conteúdos que facilitem o acesso dos clientes à empresa.
@@ -23,7 +22,7 @@ Para executar este projeto, você precisará ter instalado:
    - Volte um diretório e entre na pasta **htdocs**.
 4. Mova a pasta **Primus** (do repositório clonado) para dentro da pasta **htdocs**.
 5. Crie a conexão com as seguintes informações:
-    
+
 ```php
 <?php
 $host = "localhost";
@@ -39,3 +38,25 @@ if ($conn->connect_error) {
     die("Conexão falha: " . $conn->connect_error);
 }
 ?>
+```
+
+6. Agora você pode acessar o projeto no navegador, usando o endereço:
+
+```
+localhost/Primus/TelaInicial.php
+```
+
+---
+
+## Atualizações
+
+- **Última atualização:** 18/05/2025
+
+Fique à vontade para explorar, modificar e contribuir com o nosso projeto! 😊
+
+---
+
+## Equipe
+
+Desenvolvido como parte do trabalho de conclusão de curso. Agradecemos a todos os envolvidos!
+
