@@ -1,0 +1,369 @@
+body {
+
+    background-color: #E6E6E6;
+    padding: 0;
+    height: 4000px;
+    overflow-x: hidden;
+
+    background-image: url("../IMGS/Peças/DiscoDes.png"), url("../IMGS/Peças/PivoDes.png"), url("../IMGS/Peças/Vela.png"), url("../IMGS/Peças/RodaDes.png"), url('../IMGS/Peças/RadiadorDes.png'), url('../IMGS/Peças/FiltroDes.png');
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-size: 200px, 200px, 200px, 200px, 200px, 200px;     
+    background-position: 60px 2400px, 1600px 2900px, 50px 3500px, 1600px 1700px, 1550px 3750px, 10px 1500px;
+    animation: ImagensAumentando 4s infinite;
+}
+
+@keyframes ImagensAumentando {
+
+    0% , 100% {background-size: 200px, 200px, 200px, 200px, 200px, 200px;}
+    50% {background-size: 210px, 210px, 210px, 210px, 210px, 210px;}
+
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../FONTS/Montserrat.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'MontserratBold';
+    src: url('../FONTS/Montserrat-Bold.ttf') format('truetype');
+}
+
+/*
+MAIN*/
+
+h1 {
+    font-family: 'MontserratBold';
+    font-size: 50px;
+    text-align:center;
+    color: #E6E6E6;
+    padding-left: 220px;
+
+}
+
+h2 {
+
+    font-family:'Calibri';
+    font-size: 20px;
+    color: #E6E6E6;
+    text-align: justify;
+    padding-left: 350px;
+    max-width: 800px;
+}
+
+.hidden {
+
+    opacity: 0;
+    transform: translateX(500px);
+    transition: 1.5s;
+}
+
+.hidden.show {
+
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+h3 {
+
+    font-family: 'MontserratBold';
+    font-size: 70px;
+    text-align: center;
+}
+
+.container h4 {
+    font-family:'Calibri';
+    font-size: 25px;
+    text-align: center;
+}
+
+.hidden2{
+
+    opacity: 0;
+    transform: translateX(-500px);
+    transition: 1s;
+
+}
+
+.hidden2.show {
+
+    opacity: 1;
+    transform: translateX(-0px);
+}
+
+h5 {
+
+    font-family: 'MontserratBold';
+    font-size: 70px;
+    text-align: center;
+}
+
+h6 {
+
+    font-family:'Calibri';
+    font-size: 25px;
+    text-align: center;
+}
+
+.hidden3 {
+
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: 1s;
+
+}
+
+.hidden3.show {
+
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.hidden4 {
+
+    opacity: 0;
+    transition: 1s;
+
+}
+.hidden4.show {
+
+    opacity: 1;
+}
+
+.Empresa{
+
+    width: 50%; 
+    height: 500px;
+    background-color: #2a3386;
+    margin: 0 auto;
+    position: relative;
+    transition: 1s;
+    transform: translateX(2000px);
+    margin-right: 200px;
+
+}
+.Empresa.show{
+
+    transform: translateX(0px);
+}
+
+.Empresa::before{
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -500px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../IMGS/Rafa.png);
+    background-repeat: no-repeat;
+    transition: 1s;
+    transform: translateX(-3000px);
+
+}
+.Empresa.show::before{
+    
+    transform: translateX(0px);
+}
+
+.btnPrima {
+
+    width: 250px; 
+    height: 75px; 
+    border-radius: 10px; 
+    font-family:'MontserratBold';
+    font-size: 20px;
+    color: #000000;
+    background-color: #E6E6E6;
+    position: relative;
+    left: 100px;
+    border: none;
+    transition: 0.5s;
+
+}
+
+.btnPrima:hover {
+
+    background-color: #ffffff;
+    transform: scale(1.1);
+}
+
+.btnSegu {
+
+    width: 300px; 
+    height: 80px; 
+    border-radius: 10px; 
+    font-family:'MontserratBold';
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1a3b81;
+    position: relative;
+    left: 180px;
+    border: none;
+    transition: 0.5s;
+}
+.btnSegu:hover {
+
+    background-color: #1a2181;
+    transform: scale(1.1);
+}
+
+span {color:  #1a3b81;}
+
+
+.logoML {
+
+position: absolute;
+left: 780px;
+height: 90px;
+opacity: 0;
+transform: translateY(-100px);
+transition: 1s;
+
+}
+.logoML.show {
+
+opacity: 1;
+transform: translateY(0px);
+}
+
+.SeguImg{width: 100%; height: 600px;}
+
+.TerciImg{width: 100%; height: 600px;}
+
+.back {height: 600px;}
+
+.Trabalho {
+
+    font-size: 70px;
+    font-family: 'Arial';
+    text-align: center;
+}
+
+.Allogos img {
+
+    width: 230px;
+    transition: 1s;
+    padding-left: 50px;
+
+}
+
+.Allogos img:hover {transform: scale(1.2);}
+
+.fundoCarossel{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E293B;
+
+}
+
+.carousel-item img {object-fit: contain;}
+
+.FundoAva{
+
+    width: 100%;
+    background-color: #d4d4d4;
+
+}
+.Feedb{
+
+    text-align: center; 
+    font-family: 'MontserratBold'; 
+    font-size: 40px;
+    
+    
+}
+
+#carossel {
+    height: 150px;  /* Definindo altura fixa */   
+    width: 100%;  /* Garante que o carrossel ocupe 100% da largura disponível */
+    max-width: 60%;  /* Limita a largura máxima para 60% */
+    
+}
+
+/*Efeito scrool*/
+.EfeitoSubindo {
+
+    position: fixed; 
+    bottom: 0; 
+    padding: 20px 40px; 
+    z-index: 999;
+    opacity: 0;    
+    pointer-events: none; /*desativa a interação com o botão enquanto ele está invisível, sem precisar alterar o display*/
+    transition: opacity 1s ease;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+}
+.EfeitoSubindo.show{
+
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.EfeitoSubindo .fa-solid {font-size: 35px; color: #adadad; position: relative; margin: 0 auto; top: 10px;}
+
+.EfeitoSubindo button {
+
+    border: none;
+    background: #adadad;
+    border-radius: 100px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+}
+
+.EfeitoSubindo img {
+
+    width: 40px;
+    height: 40px;
+    transition: 1s;
+    animation: rotating 1s linear infinite;
+}
+
+@keyframes rotating {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+/*Tamanhos de Tela*/
+
+.TamanhosIni {
+
+    max-width: 25%;
+    flex: 0 0 25%;
+}
+
+@media (max-width:1170px) {
+
+.TamanhosIni {
+
+max-width: 33%;
+flex: 0 0 33%;
+
+}
+
+h1{font-size: 60px;}
+
+h2{font-size: 19px;}
+
+h3{font-size: 60px}
+
+.MercadoLivre {font-size: 20px;}
+
+h5 {font-size: 60px;}
+
+h6 {font-size: 20px;}
+
+}
+@media (max-width:862px) {
+
+.TamanhosIni {
+
+max-width: 50%;
+flex: 0 0 50%;
+
+}}
