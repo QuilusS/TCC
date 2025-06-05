@@ -1,0 +1,230 @@
+body {
+
+    background-color: #cacaca;
+    margin: 0;
+    padding: 0;
+
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url('../FONTS/LoraItalica.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../FONTS/Montserrat.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'MontserratBold';
+    src: url('../FONTS/Montserrat-Bold.ttf') format('truetype');
+}
+
+.Caixa {
+
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.BackAlterar {
+
+    background-color: #E6E6E6;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.BackAlterar label {
+
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.BackAlterar h1 {
+
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 20px;
+}
+
+.BackAlterar h2 {
+
+    font-size: 15px;
+    text-align: justify;
+    padding-bottom: 10px;
+    font-family: 'Montserrat';
+    color: #3b3b3b;
+}
+
+.BackAlterar input[type="password"], input[type="text"] {
+
+    width: 100%;
+    outline: none;
+    background-color: #e0e0e0;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: 1px solid #9b9b9b;
+}
+
+.BackAlterar input[type="password"]:focus{border: 1px solid #1A2692;}
+
+button[type="submit"] {
+
+    background-color: #2f7aaf;
+    width: 100%;
+    height: 50px;
+    color: white;
+    border-radius: 5px;
+    font-family: 'MontserratBold';
+    font-size: 17px;
+    letter-spacing: 2px;
+    margin: 20px 0;
+    outline: none;
+    border: none;
+}
+
+button[type="submit"]:hover {
+
+    background-color:  #245f8a;
+}
+
+.TextoCopy{
+
+    text-align: center;
+    color: #363636;
+    font-size: 15px;
+    font-family: 'Arial';
+}
+
+.IconeSenha{
+
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.IconeSenha i,
+.IconeSenha2 i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: auto;
+    color: #000000;
+}
+
+.IconeSenha2{
+
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+.BackAlterar input[type="password"]{
+    padding-right: 40px; /* Ajuste conforme o tamanho do ícone */
+}
+
+#MensagemErroSenha, #MensagemErroSenha2{
+
+    color: red;
+    font-size: 14px;
+    margin-bottom: 5px;
+    
+}
+
+#AvisoSenha{
+
+    padding-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+@media (max-width: 550px) {
+
+    .TextoCopy {
+
+        font-size: clamp(12px, 3vw, 14px);
+        padding: 10px;
+    }
+    
+}
+
+@media (max-width: 500px) {
+
+    .BackAlterar {
+
+        width: 80%;
+        padding: 20px;
+    }
+    .BackAlterar h1 {
+
+        font-size: 24px;
+    }
+    .BackAlterar h3 {
+
+        font-size: 14px;
+    }
+    button[type="submit"] {
+
+        width: 100%;
+    }
+    .BackAlterar input[type="text"] {
+
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 400px) {
+
+    .BackAlterar label {
+
+        font-size: 17px;
+
+    }
+    .BackAlterar h2 {
+
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    #AvisoSenha {
+
+        padding-top: 20px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .BackAlterar button[type="submit"] {
+
+        font-size: clamp(13px, 4vw, 16px);
+    }
+    .IconeSenha input,
+    .IconeSenha2 input {
+        padding-right: 32px;
+    }
+    .IconeSenha i,
+    .IconeSenha2 i {
+        right: 15px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 330px) {
+
+    .BackAlterar h2 {
+
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+    
+}

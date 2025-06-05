@@ -1,0 +1,448 @@
+/*RODAPE*/
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../FONTS/Montserrat.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'MontserratBold';
+    src: url('../FONTS/Montserrat-Bold.ttf') format('truetype');
+}
+
+footer {
+
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    background-color:#1d1d1d;
+    width: 100%;
+    color: #ffffff;
+    border-top: 2px solid #d4d4d4;
+    z-index: 999;
+    bottom: 0;
+    position: static;
+    margin-top: auto;
+
+}
+
+.RodapeInt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.RodapeBlocos {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    width: 90%;
+}
+.Listalinks ul {font-size: 18px;}
+
+.Listalinks li a {
+
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.Listalinks li a:hover {text-decoration: underline;}
+
+.ListaRedes ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+.ListaRedes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-width: 120px;
+    padding-top: 20px;
+    position: relative;
+    left: 50px;
+}
+
+.TextoMenu {
+
+    color:#3F87BC; 
+    font-size:25px;
+    font-family: 'MontserratBold';
+    position: relative;
+    padding-left: 30px;
+    padding-top: 20px;
+    
+}
+
+.TextoRedes {
+    color: #3F87BC;
+    font-size: clamp(15px, 2vw, 25px);
+    font-family: 'MontserratBold';
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.TextoInfo {
+
+    color:#3F87BC; 
+    font-size:25px; 
+    font-family: 'MontserratBold';
+    padding-bottom: 10px;
+    padding-top: 20px;
+
+}
+
+.TextoRodape a {
+
+    text-decoration: none;
+    color: white;
+}
+
+.icones{
+
+    color: #ffffff; 
+    font-size: 40px;
+    transition: 0.2s;
+}
+
+.fac:hover{color: rgb(20, 3, 255); transform: scale(1.1);}
+
+.inst:hover{color: rgb(252, 4, 128); transform: scale(1.1);}
+
+.TextoContato{
+
+    font-size: 18px;
+    position: relative;
+    left: 180px;
+}
+
+.ZapTexto{
+
+    font-size: 25px;
+}
+
+.Primuslogo {
+    
+    max-width: 100%;
+    position: relative;
+    right:130px;
+    margin-top: 80px;
+}
+
+.TextoFinal {
+    
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Arial';
+    padding-bottom: 2px;
+
+}
+
+.TextoFinal a {
+
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.TextoFinal a:hover {
+
+    color: #c4c4c4;
+
+}
+
+/* CONFIGURAÇÕES DO BOT */
+#botpenguin-launcher-12,
+#botpenguin-launcher-12 * {
+    background: transparent !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.botpenguin-launcher-image-12 {
+    padding: 0 !important;
+    border-radius: 0 !important;
+    width: 70px !important;
+    height: 70px !important;
+
+}
+
+.TextoMenu,
+.TextoRedes {
+    font-size: clamp(15px, 2vw, 25px);
+}
+
+.Listalinks ul {
+    font-size: clamp(14px, 1.5vw, 20px);
+}
+
+.Listalinks li,
+.Listalinks li a {
+    font-size: clamp(12px, 1.2vw, 17px);
+}
+
+.icones {
+    font-size: clamp(25px, 2vw, 40px);
+}
+
+.TextoContato,
+.Email2,
+.TextoRodape,
+.endereco1,
+.endereco2 {
+    font-size: clamp(11px, 1.1vw, 18px);
+}
+
+.TextoFinal {
+    font-size: clamp(10px, 1vw, 15px);
+}
+
+.ZapTexto {
+    font-size: clamp(13px, 1.5vw, 22px);
+}
+
+.Primuslogo {
+    width: clamp(200px, 15vw, 300px);
+}
+.TextoInfo {
+    font-size: clamp(15px, 2vw, 25px);
+}
+.TextoContato {
+    margin-right: clamp(0px, 8vw, 80px);
+}
+
+/*RESPONSIVE*/
+@media (max-width: 1366px) {
+    .RodapeBlocos {
+        gap: 0px !important;   /* diminui o espaço ENTRE AS COLUNAS */
+    }
+    .Primuslogo{
+        right: 50px;
+    }
+    .TextoContato{
+
+        left: 150px;
+    }
+
+    .TextoInfo {
+        width: auto !important;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+}
+@media (max-width: 1055px) {
+
+    .endereco1 {
+        max-width: 250px;
+    }
+}
+@media (max-width: 1000px) {
+    .RodapeBlocos {
+        flex-direction: column;
+        align-items: center !important;
+        justify-content: center;
+        gap: 12px;
+        padding: 10px 0 0 0;
+        width: 100%;
+        text-align: center;
+    }
+    .Primuslogo {
+        margin-top: 12px;
+        margin-bottom: 10px;
+        max-width: 90vw;
+        width: clamp(80px, 40vw, 200px);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+    }
+    .TextoContato{
+        left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 0 !important;
+        padding-top: 0 !important;
+    }
+    .Listalinks ul {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+        list-style: none !important;
+        padding-left: 0 !important;
+        margin-left: 0 !important;
+        width: auto !important;
+        font-size: 1.25rem !important;
+    }
+    .Listalinks li {
+        width: auto !important;
+        text-align: center !important;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+        margin-bottom: 2px !important;
+        padding-bottom: 10px !important;
+    }
+    .Listalinks li a {
+        text-align: center !important;
+        display: inline-block !important;
+        font-size: 1.15rem !important; 
+    }
+    .Listalinks,
+    .ListaRedes,
+    .TextoContato {
+        align-items: center !important;
+        justify-content: center;
+        min-width: 0;
+        max-width: 100%;
+        width: 100%;
+        text-align: center !important;
+        position: static !important;
+        left: 0 !important;
+        padding-left: 0 !important;
+        padding-top: 0 !important;
+    }
+    .TextoMenu,
+    .TextoRedes,
+    .TextoInfo {
+        text-align: center !important;
+        font-size: 30px;
+        width: auto !important;
+        text-align: center !important;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+    .ListaRedes {
+        left: 0 !important;
+        padding-top: 0 !important;
+    }
+    .ListaRedes i {
+        font-size: 40px;
+    }
+    .TextoContato,
+    .Email2,
+    .TextoRodape,
+    .endereco1,
+    .endereco2 {
+        text-align: center !important;
+        font-size: 1.10rem !important; /* mantém grande em telas pequenas */
+
+    }
+    .TextoFinal {font-size: 0.8rem !important; /* mantém grande em telas pequenas */}
+    .endereco1 {
+        max-width: none;
+    }
+    .ZapTexto {
+        font-size: 1.5rem !important; /* mantém grande em telas pequenas */
+    }
+}
+/* 600px */
+@media (max-width: 600px) {
+    .RodapeBlocos {
+        flex-direction: column;
+        align-items: center !important;
+        justify-content: center;
+        gap: 12px;
+        padding: 10px 0 0 0;
+        width: 100%;
+        text-align: center;
+    }
+    .Primuslogo {
+        margin-top: 12px;
+        margin-bottom: 10px;
+        max-width: 90vw;
+        width: clamp(80px, 40vw, 200px);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+    }
+    .Listalinks ul {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+        list-style: none !important;
+        padding-left: 0 !important;
+        margin-left: 0 !important;
+        width: auto !important;
+    }
+    .Listalinks li {
+        width: auto !important;
+        text-align: center !important;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+
+
+    }
+    .Listalinks li a {
+        text-align: center !important;
+        display: inline-block !important;
+        font-size: 0.9rem !important; /* mantém grande em telas pequenas */
+
+    }
+    .Listalinks,
+    .ListaRedes,
+    .TextoContato {
+        align-items: center !important;
+        justify-content: center;
+        min-width: 0;
+        max-width: 100%;
+        width: 100%;
+        text-align: center !important;
+        position: static !important;
+        left: 0 !important;
+        padding-left: 0 !important;
+        padding-top: 0 !important;
+    }
+    .TextoMenu,
+    .TextoRedes,
+    .TextoInfo {
+        text-align: center !important;
+        font-size: 25px;
+        width: auto !important;
+        text-align: center !important;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+    .ListaRedes {
+        left: 0 !important;
+        padding-top: 0 !important;
+    }
+    .ListaRedes i {
+        font-size: 30px;
+    }
+    .TextoContato,
+    .Email2,
+    .TextoRodape,
+    .endereco1,
+    .endereco2 {
+        text-align: center !important;
+        font-size: 0.9rem !important; /* mantém grande em telas pequenas */
+
+    }
+    .TextoFinal {
+        font-size: 0.7rem !important; /* mantém grande em telas pequenas */
+    }
+    .endereco1 {
+        max-width: none;
+    }
+    .TextoContato{
+        left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 0 !important;
+        padding-top: 0 !important;
+    }
+    .ZapTexto {
+        font-size: 1.2rem !important; /* mantém grande em telas pequenas */
+    }
+}

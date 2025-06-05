@@ -1,0 +1,34 @@
+
+Entidades e Relacionamentos:
+
+Cadastro
+  - id_nome (PK)
+  - nomeCompleto
+  - gmail (UNIQUE)
+  - telefone
+  - genero
+  - senha
+  - data_cadastro
+
+Logins
+  - id (PK)
+  - id_usuario (FK → Cadastro.id_nome)
+  - senha
+
+Noticias
+  - id (PK)
+  - titulo
+  - descricao
+  - categoria
+  - imagem
+  - imagemCapa
+  - data_publicacao
+
+Tokens_Recuperacao
+  - id (PK)
+  - email (UNIQUE)
+  - token
+  - expiracao
+
+Relacionamentos:
+  Logins.id_usuario → Cadastro.id_nome (FK)
