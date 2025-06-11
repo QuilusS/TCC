@@ -28,33 +28,36 @@ body {
 
 
 .Meio {
-
     height: auto;
-    width: 700px;
+    width: 100%;
+    max-width: 700px;
     margin: 0 auto;
+    padding: 2vw 2vw;
+    box-sizing: border-box;
+    transition: padding 0.3s;
 }
 
 .Cor {
 
     background-color: #fdfdfd;
-    padding: 40px;
-
+    padding: clamp(10px, 4vw, 40px);
+    transition: padding 0.3s;
 }
 
 .Meio h3 {
 
     font-family: "Montserrat";
-    font-size: 18px;
-
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    transition: font-size 0.3s;
 }
 
 .Meio h4 {
 
     font-family: "MontserratBold";
-    font-size: 20px;
+    font-size: clamp(1.1rem, 2vw, 1.25rem);
     font-weight: 700;
-    padding: 30px 0px;
-
+    padding: clamp(10px, 3vw, 30px) 0;
+    transition: font-size 0.3s, padding 0.3s;
 }
 
 .Meio p{
@@ -64,16 +67,19 @@ body {
     text-align: justify;
     font-family: "Arial";
     color: rgb(43, 43, 43);
+    font-size: clamp(0.95rem, 1.5vw, 1.1rem);
+    transition: font-size 0.3s;
 }
 
 .Cor ul{
     margin: 0;
-    padding: 20px 20px;
-    
+    padding: clamp(5px, 2vw, 20px);
+    transition: padding 0.3s;
 }
 
 .Cor li{
-    padding: 5px;
+    padding: clamp(2px, 1vw, 5px);
+    transition: padding 0.3s;
 }
 
 .Meio p span {
@@ -197,5 +203,16 @@ body {
     .EfeitoSubindo img {
         width: 20px;
         height: 20px;
+    }
+}
+
+/* Responsividade fluida */
+@media (max-width: 700px) {
+    .Meio {
+        max-width: 98vw;
+        padding: 2vw 1vw;
+    }
+    .Cor {
+        padding: clamp(5px, 3vw, 15px);
     }
 }
